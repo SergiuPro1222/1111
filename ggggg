@@ -41,7 +41,7 @@ game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame =
     game.Players:FindFirstChild(getgenv().Godmode).Character:FindFirstChild("HumanoidRootPart").CFrame *
     CFrame.new(0, 0, -3)
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(
-    "Knock me and grab me please!",
+    "Knock!",
     "All"
 )
 game.Players.LocalPlayer.Character:WaitForChild("GRABBING_CONSTRAINT")

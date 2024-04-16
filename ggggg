@@ -72,17 +72,9 @@ Bind = getgenv().Settings.AntiStomp
 Fpscap = getgenv().Settings.FPSCAP
 lowgraphics = getgenv().Settings.LowGraphics
 Alt = getgenv().Settings.Alt
-local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyOnTop/AltControl/main/old.lua"))()
-local Notify = NotifyLibrary.Notify
-Notify({Title = "Wait 1 second [real]",Duration = 3.4028235e+38})
-Wait(1)
 
 local ScriptName = "Ticxyy Stand Rewrite V1.1"
 if getgenv().StandLoaded ~= nil then
-    Notify({Title = "Already Executed!",Duration = 5})
-    Notify({Title = "Already Executed!",Duration = 5})
-    Notify({Title = "Already Executed!",Duration = 5})
-    Notify({Title = "Already Executed!",Duration = 5})
     return
 end
 
@@ -98,13 +90,8 @@ function Dead(v)local DeadEffect = v.Character:FindFirstChild('BodyEffects'):Fin
 function Attacking(v) local Attacks = v.Character:FindFirstChild('BodyEffects'):FindFirstChild('Attacking') return Attacks end
 
 if game:GetService("Players"):FindFirstChild(StandOwner) then
-    Notify({Title = "Owner Found! ['Owner'] = '"..StandOwner.."'",Duration = 3.4028235e+38})
     getgenv().StandLoaded = true
 else
-    Notify({Title = "Owner Is Not In Server Or The User Invalid",Duration = 30})
-    Notify({Title = "Please Check The User On Stand Setting",Duration = 30})
-    Notify({Title = "And Try Re Execute!",Duration = 30})
-    Notify({Title =  "['Owner'] = '"..StandOwner.."',",Duration = 30})
     return
 end
 
@@ -144,8 +131,6 @@ end
     return g(...)
 end)
 
-Notify({Title = "Da hood anticheat bypassed",Duration = 30})
-Notify({Title = "Eh bypassed",Duration = 30})
 local vu = game:GetService("VirtualUser") -- AntiAfk
 STAND.Idled:connect(function()
     vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
@@ -3127,11 +3112,9 @@ mt.__namecall = newcclosure(function(...)
     return old(...)
 end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dehoisted/Chat-Spy/main/source/main.lua"))()
-Notify({Title = ScriptName.." Loaded",Description ="https://discord.gg/ticxyy",Duration = 3.4028235e+38})
-Notify({Title = "Hey beta tester :3",Description ="Made By Ticxyylolz#9164",Duration = 3.4028235e+38})
 
 function output(plr, msg)
-    Notify({Title = plr.Name.. ": ".. msg ,Duration = 5})
+  
 end
 
 for i,v in pairs(game.Players:GetChildren()) do

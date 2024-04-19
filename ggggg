@@ -8,7 +8,7 @@ getgenv().Owner = 'YourOwnerUserNamehere' --This is JUST example dont put your u
 getgenv()._=
 "This script made by xk5ng | 808188341547565097 | If you pay for this script you get scammed LMAO | This script is completely free ok | Please kill yourself if you sell this script | On god skibidi rizzler meow gyat ohio sigma | https://discord.gg/msgabv2t9Q | https://discord.gg/ticxyy"
 --// ! Username Of Owner ! \\--
-getgenv().OWNER = 'everythinghttp31'
+getgenv().OWNER = 'ilaydaplayss'
 --\\-- Stand-Settings --//--
 getgenv().XK5NG = {
     --\\-- ! Main ! --//--
@@ -31,7 +31,7 @@ getgenv().XK5NG = {
     ['AutoSaveLocation'] = '1', --[1 | 2]. '1' is bank food shop rooftop, '2' is "DA FURNITURE" Rooftop
     ['AttackDistance'] = 75, --Attack distance for "Attack!, Stab!, Gkill!" max distance
     ['Smoothing'] = false, --[true | false] If [false] Less Delays And if [true] The Stand Movement Will Smooth But Kinda Delayed
-    ['CustomPrefix'] = '.', --[ ! | / | . | ? | > | < | | ; | : ] Custom target prefix
+    ['CustomPrefix'] = '?', --[ ! | / | . | ? | > | < | | ; | : ] Custom target prefix
     ['CustomSummon'] = 'summon!', --Custom [Summon!] Text
     ['SummonPoses'] = 'Pose1', --[false | Pose1 | Pose2 | Pose3]
     ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much

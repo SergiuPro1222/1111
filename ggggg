@@ -1,4 +1,4 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/I4MMO/antiskid/main/premium', true))()
+
 
 task.wait(0.5)
 

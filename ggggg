@@ -9,7 +9,7 @@ getgenv().Accounts = {OWNER = 'YourOwnerUsername', STAND = "YourStandUsername"} 
 
 --// ! Accounts ! \\--
 
-getgenv().Accounts = {OWNER = 'XK5NG', STAND = "AmenBot10"}
+getgenv().Accounts = {OWNER = 'everythinghttp31', STAND = "AmenBot10"}
 
 --\\-- Stand-Settings --//--
 getgenv().StandConfig = {
@@ -23,7 +23,7 @@ getgenv().StandConfig = {
     ['AutoPred'] = 0.23, --Prediction For Attack Or Targetting
     ['GunPred'] = 0.037, --Gun prediction [this is auto prediction sets]
     ['AutoPredic'] = false, --[true | false] Turn On Or Off Auto Prediction 
-    ['AttackMode'] = 'Sky', --[Sky | Under] If [Sky] The Stand Will Attack Infront Of Target And If [Under] The Stand Will Attack In Underground
+    ['AttackMode'] = 'Under', --[Sky | Under] If [Sky] The Stand Will Attack Infront Of Target And If [Under] The Stand Will Attack In Underground
     ['GunMode'] = 'Under', --[Sky | Under]  The Stand Will Shooting Just Like What In The Settings
     ['GunType'] = 'Lmg', --[Lmg | Aug]  The Stand Will Shooting Just Like What In The Settings
     ['Resolver'] = false, --[true | false] Turn On Or Off Resolver If Someone Using Anti Lock
@@ -33,15 +33,15 @@ getgenv().StandConfig = {
     ['AutoSaveLocation'] = '1', --[1 | 2]. '1' is bank food shop rooftop, '2' is "DA FURNITURE" Rooftop
     ['AttackDistance'] = 75, --Attack distance for "Attack!, Stab!, Gkill!" max distance
     ['Smoothing'] = false, --[true | false] If [false] Less Delays And if [true] The Stand Movement Will Smooth But Kinda Delayed
-    ['CustomPrefix'] = '.', --[ ! | / | . | ? | > | < | | ; | : ] Custom target prefix
-    ['CustomSummon'] = 'Summon!', --Custom [Summon!] Text
+    ['CustomPrefix'] = '?', --[ ! | / | . | ? | > | < | | ; | : ] Custom target prefix
+    ['CustomSummon'] = '?show', --Custom [Summon!] Text
     ['SummonPoses'] = 'Pose1', --[false | Pose1 | Pose2 | Pose3]
     ['LowGraphics'] = false, --[true | false] Turns graphics down so your stand doesnt lag too much
     ['AntiStomp'] = true, --[true | false] The Stand Will Cannot Be Stomped Or Grabbed
-    ['CustomName'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
+    ['CustomName'] = 'Daddy Namhack.', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
     ['Hidescreen'] = false, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
     ['ChatCmds'] = true, --[true | false] Chatted When You Use Some Command
-    ['MaskMode'] = 'Paintball', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot] The Stand Will Buy The Mask You Selected
+    ['MaskMode'] = 'Pumpkin', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot] The Stand Will Buy The Mask You Selected
     ['AutoMask'] = true, --[true | false] Auto Buy Mask When The St    and Respawn
     ['FPSCAP'] = false, --[false | 'NUMBER'] This is so your main account gets the most fps (MAXED IS 60, SUGGEST 30 FPS ON STANDS)
     ['Msg'] = 'Yare Yare Daze.', --When You Say [/e msg] It Makes All The Alts Say That Message

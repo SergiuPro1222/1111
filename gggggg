@@ -8,7 +8,7 @@ getgenv().Accounts = {OWNER = 'dark_web2020', STAND = "NoNemeNoScops"} This is j
 
 --\\-- Accounts --//--
 
-getgenv().Accounts = {OWNER = 'xk5ng', STAND = "4k7nz"}
+getgenv().Accounts = {OWNER = 'dark_web2020', STAND = "NoNemeNoScops"}
 
 --\\-- Stand-Configuration --//--
 

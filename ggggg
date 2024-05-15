@@ -26,7 +26,7 @@ getgenv().StandConfig = {
     ['AttackMode'] = 'Sky', --[Sky | Under] If [Sky] The Stand Will Attack Infront Of Target And If [Under] The Stand Will Attack In Underground
     ['GunMode'] = 'Under', --[Sky | Under]  The Stand Will Shooting Just Like What In The Settings
     ['GunType'] = 'Lmg', --[Lmg | Aug]  The Stand Will Shooting Just Like What In The Settings
-    ['Resolver'] = false, --[true | false] Turn On Or Off Resolver If Someone Using Anti Lock
+    ['Resolver'] = true, --[true | false] Turn On Or Off Resolver If Someone Using Anti Lock
     --\\-- ! Antilock ! --//--
     ['SkyAmount'] = 1600, --Sky Velocity
     --\\-- ! Misc ! --//--

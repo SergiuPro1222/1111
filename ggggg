@@ -4,7 +4,7 @@ getgenv()._=
 
 // Example \\
 
-getgenv().Accounts = {OWNER = 'dark_web2020', STAND = "NoNemeNoScope"} This is just the example dont put the username here ]]
+getgenv().Accounts = {OWNER = 'dark_web2020', STAND = "NoNemeNoScops"} This is just the example dont put the username here ]]
 
 --\\-- Accounts --//--
 

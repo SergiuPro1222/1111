@@ -533,8 +533,8 @@ function library:Window(title, version, info, preset, closebind)
 
             Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
         end
-function tabcontent:Toggle(text,default,callback)
-    local toggled = false
+   function tabcontent:Toggle(text, default, callback)
+    local toggled = default or false
 
     local Toggle = Instance.new("TextButton")
     local ToggleCorner = Instance.new("UICorner")
@@ -618,49 +618,38 @@ function tabcontent:Toggle(text,default,callback)
         end
     end)()
 
-    local toggle = {}
-
-    function toggle:set(state)
-        if state == false then
-            tweensv:Create(Toggle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(34, 34, 34)}):Play()
-            tweensv:Create(FrameToggle1,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()
-            tweensv:Create(FrameToggle2,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()
-            tweensv:Create(FrameToggle3,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()
-            tweensv:Create(FrameToggleCircle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
-            FrameToggleCircle:TweenPosition(UDim2.new(0.127000004, 0, 0.222000003, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quart,.2,true)
+    local function updateToggleState(state)
+        if state then
+            tweensv:Create(Toggle, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(37, 37, 37)}):Play()
+            tweensv:Create(FrameToggle1, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+            tweensv:Create(FrameToggle2, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+            tweensv:Create(FrameToggle3, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundTransparency = 0}):Play()
+            tweensv:Create(FrameToggleCircle, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}):Play()
+            FrameToggleCircle:TweenPosition(UDim2.new(0.587, 0, 0.222000003, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .2, true)
         else
-            tweensv:Create(Toggle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(37, 37, 37)}):Play()
-            tweensv:Create(FrameToggle1,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()
-            tweensv:Create(FrameToggle2,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()
-            tweensv:Create(FrameToggle3,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()
-            tweensv:Create(FrameToggleCircle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(255, 255, 255)}):Play()
-            FrameToggleCircle:TweenPosition(UDim2.new(0.587, 0, 0.222000003, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quart,.2,true)
+            tweensv:Create(Toggle, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(34, 34, 34)}):Play()
+            tweensv:Create(FrameToggle1, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundTransparency = 0}):Play()
+            tweensv:Create(FrameToggle2, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundTransparency = 0}):Play()
+            tweensv:Create(FrameToggle3, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+            tweensv:Create(FrameToggleCircle, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
+            FrameToggleCircle:TweenPosition(UDim2.new(0.127000004, 0, 0.222000003, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .2, true)
         end
         toggled = state
     end
 
+    local toggle = {}
+
+    function toggle:set(state)
+        updateToggleState(state)
+    end
+
     library.Conn[#library.Conn + 1] = Toggle.MouseButton1Click:Connect(function()
-        if toggled == false then
-            tweensv:Create(Toggle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(37, 37, 37)}):Play()
-            tweensv:Create(FrameToggle1,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()
-            tweensv:Create(FrameToggle2,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()
-            tweensv:Create(FrameToggle3,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()
-            tweensv:Create(FrameToggleCircle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(255, 255, 255)}):Play()
-            FrameToggleCircle:TweenPosition(UDim2.new(0.587, 0, 0.222000003, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quart,.2,true)
-        else
-            tweensv:Create(Toggle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(34, 34, 34)}):Play()
-            tweensv:Create(FrameToggle1,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()
-            tweensv:Create(FrameToggle2,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()
-            tweensv:Create(FrameToggle3,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()
-            tweensv:Create(FrameToggleCircle,TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
-            FrameToggleCircle:TweenPosition(UDim2.new(0.127000004, 0, 0.222000003, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quart,.2,true)
-        end
-        toggled = not toggled
+        updateToggleState(not toggled)
         pcall(callback)
     end)
 
-    if default == true then
-        toggle:set(true)
+    if default then
+        updateToggleState(true)
     end
 
     Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
@@ -1956,4 +1945,5 @@ end
     end
     return tabhold
 end
+warn("loaded")
 return library

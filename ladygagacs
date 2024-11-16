@@ -533,7 +533,7 @@ function library:Window(title, version, info, preset, closebind)
 
             Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
         end
-   function tabcontent:Toggle(text, default, callback)
+function tabcontent:Toggle(text, default, callback)
     local toggled = default or false
 
     local Toggle = Instance.new("TextButton")
@@ -645,7 +645,7 @@ function library:Window(title, version, info, preset, closebind)
 
     library.Conn[#library.Conn + 1] = Toggle.MouseButton1Click:Connect(function()
         updateToggleState(not toggled)
-        pcall(callback)
+        pcall(callback, toggled)
     end)
 
     if default then
@@ -1945,5 +1945,4 @@ end
     end
     return tabhold
 end
-warn("loaded")
 return library

@@ -1,1 +1,2626 @@
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then v19=v0(v3(v30,1,1));return "";else local v82=v2(v0(v30,16));if v19 then local v89=0;local v90;while true do if (v89==1) then return v90;end if (v89==0) then v90=v5(v82,v19);v19=nil;v89=1;end end else return v82;end end end);local function v20(v31,v32,v33) if v33 then local v83=0 -0 ;local v84;while true do if (v83==0) then v84=(v31/((1 + 1)^(v32-(2 -1))))%((3 -1)^(((v33-1) -(v32-(2 -1))) + (1 -0))) ;return v84-(v84%(620 -(555 + 63 + 1))) ;end end else local v85=(933 -(191 + 666 + 74))^(v32-(1271 -(226 + 1044))) ;return (((v31%(v85 + v85))>=v85) and ((1526 -(892 + 65)) -(367 + 201))) or (927 -(214 + 713)) ;end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35=0 -0 ;local v36;local v37;while true do if (v35==(1 -0)) then return (v37 * (469 -213)) + v36 ;end if (v35==(350 -(87 + 263))) then v36,v37=v1(v16,v18,v18 + 2 );v18=v18 + 2 ;v35=(133 + 48) -(67 + 113) ;end end end local function v23() local v38,v39,v40,v41=v1(v16,v18,v18 + (7 -4) );v18=v18 + 3 + 1 ;return (v41 * ((179527353 -112846522) -49903615)) + (v40 * 65536) + (v39 * (1208 -(802 + 150))) + v38 ;end local function v24() local v42=v23();local v43=v23();local v44=1 -0 ;local v45=(v20(v43,1 + 0 ,1017 -(915 + 82) ) * (((443 -(145 + 293)) -(433 -(44 + 386)))^(19 + 13))) + v42 ;local v46=v20(v43,(799 -(201 + 571)) -6 ,31);local v47=((v20(v43,32)==(1188 -((2555 -(998 + 488)) + (1256 -(116 + 1022))))) and  -((8 -6) -1)) or 1 ;if (v46==(0 -0)) then if (v45==(0 + 0 + 0)) then return v47 * (0 -0) ;else local v91=0 + 0 ;while true do if (v91==(791 -(368 + 423))) then v46=(1 + 2) -2 ;v44=18 -(10 + 8) ;break;end end end elseif (v46==2047) then return ((v45==0) and (v47 * ((3 -2)/(442 -(416 + 26))))) or (v47 * NaN) ;end return v8(v47,v46-(3266 -2243) ) * (v44 + (v45/((1 + 1)^(91 -39)))) ;end local function v25(v48) local v49;if  not v48 then v48=v23();if (v48==0) then return "";end end v49=v3(v16,v18,(v18 + v48) -(3 -2) );v18=v18 + v48 ;local v50={};for v65=3 -2 , #v49 do v50[v65]=v2(v1(v3(v49,v65,v65)));end return v6(v50);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v51=(function() return 0;end)();local v52=(function() return;end)();local v53=(function() return;end)();local v54=(function() return;end)();local v55=(function() return;end)();local v56=(function() return;end)();local v57=(function() return;end)();local v58=(function() return;end)();while true do local v67=(function() return 0;end)();while true do if (v67==0) then if (v51==(470 -(159 + 310))) then local v96=(function() return 0 -0 ;end)();local v97=(function() return;end)();while true do if (v96~=(935 -(39 + 896))) then else v97=(function() return 0;end)();while true do if (v97==(3 -1)) then v51=(function() return 2 -0 ;end)();break;end if (v97~=(2 -1)) then else v58=(function() return {};end)();for v128= #"!",v57 do local v129=(function() return 0 + 0 ;end)();local v130=(function() return;end)();local v131=(function() return;end)();local v132=(function() return;end)();while true do if (v129~=(0 + 0)) then else local v379=(function() return 396 -(115 + 281) ;end)();while true do if (v379==(2 -1)) then v129=(function() return 1;end)();break;end if (v379~=(0 + 0)) then else v130=(function() return 0;end)();v131=(function() return nil;end)();v379=(function() return 1;end)();end end end if (v129==1) then v132=(function() return nil;end)();while true do if (v130~=(0 -0)) then else local v485=(function() return 0 -0 ;end)();while true do if (v485~=1) then else v130=(function() return 1;end)();break;end if (v485~=(867 -(550 + 317))) then else v131=(function() return v21();end)();v132=(function() return nil;end)();v485=(function() return 1 -0 ;end)();end end end if (1==v130) then if (v131== #"[") then v132=(function() return v21()~=(0 -0) ;end)();elseif (v131==(5 -3)) then v132=(function() return v24();end)();elseif (v131~= #"91(") then else v132=(function() return v25();end)();end v58[v128]=(function() return v132;end)();break;end end break;end end end v97=(function() return 2;end)();end if (0==v97) then v56=(function() return {v53,v54,nil,v55};end)();v57=(function() return v23();end)();v97=(function() return 1;end)();end end break;end end end if (v51==2) then v56[ #"xxx"]=(function() return v21();end)();for v101= #"|",v23() do local v102=(function() return v21();end)();if (v20(v102, #"\\", #"\\")~=0) then else local v104=(function() return 0;end)();local v105=(function() return;end)();local v106=(function() return;end)();local v107=(function() return;end)();while true do if (v104==(1668 -(970 + 695))) then if (v20(v106, #"19(", #"-19")~= #",") then else v107[ #"xnxx"]=(function() return v58[v107[ #"0836"]];end)();end v53[v101]=(function() return v107;end)();break;end if (v104==1) then local v109=(function() return 0 -0 ;end)();while true do if (v109~=0) then else v107=(function() return {v22(),v22(),nil,nil};end)();if (v105==(0 -0)) then local v398=(function() return 0 -0 ;end)();local v399=(function() return;end)();while true do if (v398~=0) then else v399=(function() return 0 -0 ;end)();while true do if (v399==(1824 -(1195 + 629))) then v107[ #"gha"]=(function() return v22();end)();v107[ #".dev"]=(function() return v22();end)();break;end end break;end end elseif (v105== #"!") then v107[ #"xnx"]=(function() return v23();end)();elseif (v105==2) then v107[ #"-19"]=(function() return v23() -((2 -0)^(257 -(187 + 54))) ;end)();elseif (v105~= #"asd") then else local v501=(function() return 0;end)();local v502=(function() return;end)();while true do if (v501~=(780 -(162 + 618))) then else v502=(function() return 0 + 0 ;end)();while true do if (v502==(0 + 0)) then v107[ #"91("]=(function() return v23() -((3 -1)^(26 -10)) ;end)();v107[ #"?id="]=(function() return v22();end)();break;end end break;end end end v109=(function() return 1;end)();end if (v109==1) then v104=(function() return 2;end)();break;end end end if ((1 + 1)~=v104) then else if (v20(v106, #"[", #"{")== #"<") then v107[1638 -(1373 + 263) ]=(function() return v58[v107[1002 -(451 + 549) ]];end)();end if (v20(v106,2,1 + 1 )== #">") then v107[ #"-19"]=(function() return v58[v107[ #"19("]];end)();end v104=(function() return 4 -1 ;end)();end if (v104==(0 -0)) then local v110=(function() return 0;end)();while true do if (v110~=0) then else v105=(function() return v20(v102,2, #"asd");end)();v106=(function() return v20(v102, #"?id=",1390 -(746 + 638) );end)();v110=(function() return 1 + 0 ;end)();end if (v110~=(1 -0)) then else v104=(function() return 342 -(218 + 123) ;end)();break;end end end end end end for v103= #"]",v23() do v54,v103,v28=(function() return v52(v54,v103,v28);end)();end return v56;end v67=(function() return 1582 -(1535 + 46) ;end)();end if (v67~=(1 + 0)) then else if ((0 + 0)==v51) then local v99=(function() return 560 -(306 + 254) ;end)();local v100=(function() return;end)();while true do if (v99~=0) then else v100=(function() return 0;end)();while true do if (1==v100) then v54=(function() return {};end)();v55=(function() return {};end)();v100=(function() return 1 + 1 ;end)();end if (v100~=0) then else v52=(function() return function(v136,v137,v138) local v139=(function() return 0 -0 ;end)();while true do if (v139==0) then local v400=(function() return 0;end)();while true do if (0==v400) then v136[v137-#"~" ]=(function() return v138();end)();return v136,v137,v138;end end end end end;end)();v53=(function() return {};end)();v100=(function() return 1;end)();end if (2~=v100) then else v51=(function() return 1468 -(899 + 568) ;end)();break;end end break;end end end break;end end end end local function v29(v59,v60,v61) local v62=v59[1];local v63=v59[2 + 0 ];local v64=v59[7 -(258 -(79 + 175)) ];return function(...) local v68=v62;local v69=v63;local v70=v64;local v71=v27;local v72=1 -0 ;local v73= -((472 + 132) -(268 + 335));local v74={};local v75={...};local v76=v12("#",...) -((1755 -1182) -(426 + 146)) ;local v77={};local v78={};for v86=0 + 0 ,v76 do if (v86>=v70) then v74[v86-v70 ]=v75[v86 + 1 ];else v78[v86]=v75[v86 + ((2805 -1348) -(282 + 1174)) ];end end local v79=(v76-v70) + (812 -((1468 -(503 + 396)) + 242)) ;local v80;local v81;while true do v80=v68[v72];v81=v80[2 -1 ];if (v81<=26) then if ((1959>262) and (v81<=(1 + 11))) then if (v81<=(1029 -(706 + (499 -(92 + 89))))) then if ((v81<=(1253 -(721 + 530))) or (3131>3542)) then if ((2577>=1578) and (v81<=(1271 -(945 + 326)))) then v72=v80[7 -4 ];elseif (v81==(1 + 0)) then if (v78[v80[702 -(271 + 429) ]]==v80[4 + 0 ]) then v72=v72 + (1501 -(1408 + 92)) ;else v72=v80[3];end else local v140=v80[1088 -(461 + 625) ];local v141=v78[v140];local v142=v78[v140 + (1290 -(993 + 295)) ];if ((4103<=4571) and (v142>(0 + 0))) then if (v141>v78[v140 + (1172 -(418 + 753)) ]) then v72=v80[2 + 1 ];else v78[v140 + 1 + 2 ]=v141;end elseif ((v141<v78[v140 + 1 + 0 ]) or (1495==4787)) then v72=v80[1 + 2 ];else v78[v140 + (532 -(406 + 123)) ]=v141;end end elseif (v81<=(1772 -(1749 + (38 -18)))) then local v112=0 + 0 ;local v113;local v114;while true do if ((v112==(1322 -(1249 + 73))) or (1839>=3774) or (310>4434)) then v113=v80[2 + 0 + 1 ];v114=v78[v113];v112=(679 + 467) -(466 + (2658 -1979)) ;end if (v112==(2 -1)) then for v381=v113 + (2 -1) ,v80[1904 -(106 + 1794) ] do v114=v114   .. v78[v381] ;end v78[v80[1 + 1 + 0 ]]=v114;break;end end elseif ((2168<=4360) and (v81>((4 -2) + 2))) then local v143=v80[2];do return v13(v78,v143,v143 + v80[8 -5 ] );end elseif (v80[5 -3 ]==v78[v80[118 -(4 + 110) ]]) then v72=v72 + (585 -(57 + 527)) ;else v72=v80[1430 -(41 + 1386) ];end elseif ((994==994) and (v81<=(111 -(17 + 86)))) then if ((1655>401) and (v81<=6)) then v78[v80[2 + 0 ]]=v78[v80[6 -3 ]][v78[v80[11 -7 ]]];elseif (v81>(173 -(107 + 15 + 44))) then local v144=v80[2 -0 ];do return v13(v78,v144,v73);end else v78[v80[(3 + 3) -4 ]]=v80[3 + 0 ] + v78[v80[(2 -1) + 3 ]] ;end elseif ((3063<=3426) and (v81<=(20 -10))) then if ((1459>764) and (v81>(74 -(30 + 5 + 30)))) then for v317=v80[2 + (0 -0) ],v80[1260 -(1043 + 214) ] do v78[v317]=nil;end else local v146=v80[7 -5 ];local v147,v148=v71(v78[v146](v13(v78,v146 + (1213 -(323 + (2133 -(485 + 759)))) ,v73)));v73=(v148 + v146) -(2 -1) ;local v149=(1342 -762) -(361 + 219) ;for v319=v146,v73 do v149=v149 + (321 -(53 + 267)) ;v78[v319]=v147[v149];end end elseif ((v81==(1200 -(442 + 747))) or (641>4334)) then if ((3399>=2260) and v78[v80[1 + 1 ]]) then v72=v72 + (414 -(15 + 398)) ;else v72=v80[3];end else v78[v80[984 -((1153 -(832 + 303)) + 964) ]][v80[3]]=v78[v80[14 -10 ]];end elseif ((2811==2811) and (v81<=(12 + 7))) then if ((v81<=15) or (393>=4242)) then if (v81<=(9 + 4)) then v78[v80[852 -(20 + 830) ]]=v78[v80[3 + 0 ]];elseif (v81==(960 -(88 + 858))) then local v152;local v153;local v154;local v155,v156;local v157;v78[v80[128 -(116 + 10) ]]=v61[v80[1 + 2 ]];v72=v72 + (739 -(542 + 196)) ;v80=v68[v72];v78[v80[1 + 1 ]]=v78[v80[6 -(3 + 0) ]][v80[4]];v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[2 + 0 ]]=v61[v80[2 + 1 + 0 ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[791 -(766 + 23) ]]=v78[v80[3]][v80[10 -6 ]];v72=v72 + (2 -1) ;v80=v68[v72];v78[v80[1553 -(1126 + 425) ]]=v78[v80[408 -(118 + 287) ]];v72=v72 + (3 -2) ;v80=v68[v72];v157=v80[2];v155,v156=v71(v78[v157](v78[v157 + (1122 -(118 + 1003)) ]));v73=(v156 + v157) -1 ;v154=0;for v322=v157,v73 do v154=v154 + ((9 -7) -1) ;v78[v322]=v155[v154];end v72=v72 + (378 -(142 + 235)) ;v80=v68[v72];v157=v80[2];v78[v157]=v78[v157](v13(v78,v157 + (4 -3) ,v73));v72=v72 + 1 + (0 -0) ;v80=v68[v72];v78[v80[979 -(553 + 424) ]]=v80[5 -2 ];v72=v72 + 1 + 0 ;v80=v68[v72];v157=v80[2 + 0 ];v153=v78[v157];v152=v78[v157 + 2 + 0 ];if ((989<4859) and (v152>((0 -0) + 0))) then if ((v153>v78[v157 + 1 + 0 ]) or (4795<949)) then v72=v80[(20 -14) -3 ];else v78[v157 + (7 -(1077 -(1036 + 37))) ]=v153;end elseif ((2146>1122) and (v153<v78[v157 + (2 -1) ])) then v72=v80[1 + 2 + 0 ];else v78[v157 + (14 -11) ]=v153;end else v78[v80[3 -1 ]]=v80[756 -(239 + 405 + 109) ];end elseif ((v81<=(6 + 11)) or (56==3616)) then if (v81>16) then local v177=v80[1331 -(797 + 532) ];local v178=v80[3 + 1 ];local v179=v177 + 1 + 1 ;local v180={v78[v177](v78[v177 + 1 ],v78[v179])};for v325=1,v178 do v78[v179 + v325 ]=v180[v325];end local v181=v180[1203 -(373 + (2309 -(641 + 839))) ];if ((3842==3842) and v181) then local v384=731 -(476 + 255) ;while true do if ((1747<=3601) and (0==v384)) then v78[v179]=v181;v72=v80[(2046 -(910 + 3)) -(369 + 761) ];break;end end else v72=v72 + 1 + 0 ;end else v78[v80[(4 -2) -0 ]]=v60[v80[5 -(1686 -(1466 + 218)) ]];end elseif ((v81>(256 -(64 + 174))) or (2421<622)) then v61[v80[1 + 0 + 2 ]]=v78[v80[2 -0 ]];else do return v78[v80[338 -(144 + 192) ]];end end elseif (v81<=(238 -(42 + (1322 -(556 + 592))))) then if ((1009<=1130) and (v81<=(16 + 4))) then local v119=0 + 0 + 0 ;local v120;local v121;local v122;while true do if ((2758<2980) and ((1 + (809 -(329 + 479)))==v119)) then for v385=1505 -(363 + 1141) ,v80[1584 -(1183 + 397) ] do v72=v72 + (2 -1) ;local v386=v68[v72];if (v386[1 + 0 ]==(10 + 3)) then v122[v385-(1976 -(1913 + 62)) ]={v78,v386[1936 -(565 + 1368) ]};else v122[v385-(3 -2) ]={v60,v386[3 + 0 ]};end v77[ #v77 + (3 -2) ]=v122;end v78[v80[858 -(564 + 292) ]]=v29(v120,v121,v61);break;end if (v119==(1 -0)) then v122={};v121=v10({},{__index=function(v388,v389) local v390=v122[v389];return v390[2 -1 ][v390[2]];end,__newindex=function(v391,v392,v393) local v394=304 -(244 + 60) ;local v395;while true do if ((v394==(0 + 0)) or (86>=3626)) then v395=v122[v392];v395[477 -(41 + 435) ][v395[2]]=v393;break;end end end});v119=1003 -(938 + 63) ;end if (((2395==2395) and (v119==(0 + 0 + 0))) or (804>4359)) then v120=v69[v80[(1867 -(396 + 343)) -(936 + 189) ]];v121=nil;v119=1 + 0 ;end end elseif ((4670>=3623) and (v81>(1634 -(1565 + 48)))) then local v186=v80[2 + 0 ];local v187={v78[v186](v78[v186 + (268 -(176 + 91)) ])};local v188=0 -0 ;for v330=v186,v80[5 -1 ] do v188=v188 + (1093 -(975 + 117)) ;v78[v330]=v187[v188];end else v78[v80[1877 -(157 + 1718) ]]=v78[v80[3 + 0 ]]%v78[v80[(1491 -(29 + 1448)) -10 ]] ;end elseif ((3780>2709) and (v81<=(81 -57))) then if ((v81>23) or (237>=2273)) then local v190=1018 -(697 + 321) ;local v191;local v192;local v193;while true do if ((5 -3)==v190) then v78[v80[3 -1 ]]=v80[6 -3 ];v72=v72 + 1 + 0 ;v80=v68[v72];v190=5 -2 ;end if ((2065<2544) and (v190==(15 -9))) then if ((v191>(1227 -(322 + (2294 -(135 + 1254))))) or (2040<=703)) then if (v192>v78[v193 + (612 -(602 + 9)) ]) then v72=v80[3];else v78[v193 + (1192 -(449 + 740)) ]=v192;end elseif (v192<v78[v193 + (873 -(826 + 46)) ]) then v72=v80[3];else v78[v193 + (950 -(245 + 702)) ]=v192;end break;end if ((0 -0)==v190) then v191=nil;v192=nil;v193=nil;v190=1 + 0 ;end if (v190==4) then v78[v80[(7157 -5257) -(260 + 1638) ]]=v80[443 -(382 + 58) ];v72=v72 + (3 -2) ;v80=v68[v72];v190=5;end if ((1311<=3359) and (v190==(3 + 0))) then v78[v80[3 -(4 -3) ]]=v78[v80[8 -5 ]];v72=v72 + 1 ;v80=v68[v72];v190=4;end if (v190==(1210 -(902 + 303))) then v193=v80[3 -1 ];v192=v78[v193];v191=v78[v193 + (4 -2) ];v190=1 + 5 ;end if ((3279<=3967) and (v190==(1691 -(1121 + 569)))) then v78[v80[2]]=v78[v80[217 -(22 + 192) ]];v72=v72 + (684 -(322 + 161 + 200)) ;v80=v68[v72];v190=2;end end else local v194;v78[v80[1465 -(1404 + (1586 -(389 + 1138))) ]]=v80[8 -5 ];v72=v72 + (1 -0) ;v80=v68[v72];v78[v80[767 -((1042 -(102 + 472)) + 297) ]]=v80[565 -(334 + 216 + 12) ];v72=v72 + ((2 + 1) -2) ;v80=v68[v72];v194=v80[4 -2 ];v78[v194]=v78[v194](v13(v78,v194 + 1 ,v80[5 -2 ]));v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[238 -(141 + 95) ]][v80[3 + 0 ]]=v78[v80[9 -(5 + 0) ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[4 -2 ]]=v78[v80[1548 -(320 + 1225) ]];v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[5 -(5 -2) ]]=v80[3 + 0 ];v72=v72 + 1 + 0 + 0 ;v80=v68[v72];v78[v80[1466 -(157 + 1307) ]]=v80[(1863 -(821 + 1038)) -1 ];v72=v72 + 1 + 0 ;v80=v68[v72];v194=v80[165 -(92 + 71) ];v78[v194]=v78[v194](v13(v78,v194 + 1 + 0 ,v80[4 -1 ]));v72=v72 + (766 -(574 + 191)) ;v80=v68[v72];v78[v80[2 + 0 ]][v80[3]]=v78[v80[9 -5 ]];v72=v72 + (2 -1) + 0 ;v80=v68[v72];v78[v80[851 -(254 + 595) ]]=v78[v80[3]];end elseif ((v81>((17 + 134) -(55 + 71))) or (1988==877)) then local v215;v78[v80[2 -0 ]]=v80[3];v72=v72 + (1791 -((1017 -444) + 1217)) ;v80=v68[v72];v215=v80[5 -3 ];v78[v215]=v78[v215](v13(v78,v215 + 1 + 0 ,v80[4 -1 ]));v72=v72 + 1 ;v80=v68[v72];v78[v80[941 -(266 + 448 + 225) ]][v80[3]]=v78[v80[11 -7 ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[(4 -2) -0 ]]=v78[v80[3]];v72=v72 + 1 + (1026 -(834 + 192)) ;v80=v68[v72];v78[v80[2 -0 ]]=v80[(52 + 757) -(118 + 688) ];v72=v72 + (49 -(25 + 23)) ;v80=v68[v72];v78[v80[1 + 1 ]]=v80[1889 -(927 + 959) ];v72=v72 + 1 ;v80=v68[v72];v215=v80[6 -(2 + 2) ];v78[v215]=v78[v215](v13(v78,v215 + (733 -(16 + 716)) ,v80[5 -2 ]));v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[99 -(11 + 86) ]][v80[6 -3 ]]=v78[v80[289 -(175 + 110) ]];v72=v72 + (2 -1) ;v80=v68[v72];v78[v80[2]]=v80[14 -11 ];v72=v72 + (1797 -(503 + 1293)) ;v80=v68[v72];for v333=v80[2],v80[3] do v78[v333]=nil;end else v78[v80[2]]= #v78[v80[8 -5 ]];end elseif (v81<=(29 + 11)) then if (v81<=(50 -17)) then if (v81<=(1090 -(810 + 251))) then if (v81<=(19 + 8)) then local v123=(304 -(300 + 4)) + 0 ;local v124;while true do if ((2717<=3156) and (v123==(2 + 3 + 0))) then v78[v80[535 -(43 + 490) ]]=v80[736 -(711 + 22) ];v72=v72 + 1 ;v80=v68[v72];v78[v80[2]]=v80[3];v123=6;end if (v123==(0 -0)) then v124=nil;v78[v80[(2253 -1392) -(240 + 619) ]]=v78[v80[1 + 2 ]];v72=v72 + (1 -0) ;v80=v68[v72];v123=1 + 0 ;end if (v123==4) then v80=v68[v72];v78[v80[1746 -(1344 + 400) ]]=v78[v80[3]];v72=v72 + (363 -(112 + 250)) ;v80=v68[v72];v123=410 -(102 + 153 + (375 -225)) ;end if ((1081<4524) and (v123==(3 + 0))) then v72=v72 + 1 ;v80=v68[v72];v78[v80[2 + 0 ]][v80[12 -9 ]]=v78[v80[12 -8 ]];v72=v72 + (1740 -(232 + 172 + 1335)) ;v123=410 -(95 + 88 + 223) ;end if (v123==2) then v72=v72 + (1 -0) ;v80=v68[v72];v124=v80[2 + 0 ];v78[v124]=v78[v124](v13(v78,v124 + 1 + 0 ,v80[340 -(8 + 2 + 327) ]));v123=3 + 0 ;end if (v123==(339 -(118 + 220))) then v78[v80[1 + 0 + 1 ]]=v80[452 -(108 + 341) ];v72=v72 + 1 + 0 + 0 ;v80=v68[v72];v78[v80[8 -6 ]]=v80[1496 -((2125 -(1001 + 413)) + (1743 -961)) ];v123=3 -1 ;end if ((440>=71) and (4291>1912) and (v123==(475 -(270 + 199)))) then v72=v72 + 1 + 0 ;v80=v68[v72];v124=v80[1821 -((1462 -(244 + 638)) + 1239) ];v78[v124]=v78[v124](v13(v78,v124 + (694 -(627 + 66)) ,v80[8 -5 ]));v123=7 + 0 ;end if (v123==(1 + 6)) then v72=v72 + 1 ;v80=v68[v72];v78[v80[1 + 1 ]][v80[3]]=v78[v80[9 -5 ]];break;end end elseif (v81==(18 + 10)) then if ((4934>2607) and  not v78[v80[1169 -(645 + 522) ]]) then v72=v72 + 1 ;else v72=v80[1793 -(1010 + 780) ];end else local v234=0;while true do if (v234==0) then v78[v80[2]]=v80[3 + 0 ]~=(0 -0) ;v72=v72 + (2 -1) ;break;end end end elseif ((v81<=(1867 -(1045 + (2356 -1565)))) or (1400>3116)) then if (v81==(75 -45)) then local v235=v80[2];local v236=v78[v235 + (2 -0) ];local v237=v78[v235] + v236 ;v78[v235]=v237;if ((2003<2339) and (v236>(505 -(351 + 154)))) then if ((525<1662) and (v237<=v78[v235 + 1 ])) then v72=v80[(2179 -(512 + 90)) -(1281 + 293) ];v78[v235 + 3 ]=v237;end elseif (v237>=v78[v235 + (267 -(28 + 238)) ]) then v72=v80[6 -(1909 -(1665 + 241)) ];v78[v235 + 3 ]=v237;end else local v239;local v240,v241;local v242;v78[v80[1561 -(1381 + 178) ]]=v78[v80[3 + (717 -(373 + 344)) ]];v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[1 + 1 ]]=v60[v80[(5 + 5) -7 ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[2]]=v60[v80[3]];v72=v72 + 1 + 0 + 0 ;v80=v68[v72];v78[v80[472 -(381 + 89) ]]=v60[v80[3 + 0 ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[2 + (0 -0) ]]=v60[v80[3]];v72=v72 + 1 ;v80=v68[v72];v78[v80[2 -0 ]]=v78[v80[3]];v72=v72 + (1157 -(1074 + 82)) ;v80=v68[v72];v78[v80[3 -1 ]]=v78[v80[1787 -(214 + 1570) ]];v72=v72 + (1456 -(990 + 465)) ;v80=v68[v72];v78[v80[1 + 1 ]]=v78[v80[2 + 1 ]] + v80[4 + 0 ] ;v72=v72 + ((4 -1) -(1101 -(35 + 1064))) ;v80=v68[v72];v242=v80[2];v240,v241=v71(v78[v242](v13(v78,v242 + (1727 -(1214 + 454 + 58)) ,v80[629 -(512 + 114) ])));v73=(v241 + v242) -1 ;v239=0 -0 ;for v363=v242,v73 do v239=v239 + (1 -0) ;v78[v363]=v240[v239];end v72=v72 + (3 -2) ;v80=v68[v72];v242=v80[1 + (2 -1) ];v78[v242]=v78[v242](v13(v78,v242 + 1 + 0 ,v73));v72=v72 + 1 ;v80=v68[v72];v78[v80[2]]=v60[v80[3 + 0 ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[6 -(1 + 3) ]]=v60[v80[1997 -(109 + 1885) ]];v72=v72 + ((2706 -(298 + 938)) -(1269 + 200)) ;v80=v68[v72];v78[v80[3 -(1260 -(233 + 1026)) ]]=v78[v80[818 -(98 + 717) ]];v72=v72 + (827 -((2468 -(636 + 1030)) + 24)) ;v80=v68[v72];v78[v80[2 -0 ]]= #v78[v80[(2 + 1) -0 ]];v72=v72 + 1 ;v80=v68[v72];v78[v80[1 + 0 + 1 ]]=v78[v80[1 + 2 + 0 + 0 ]]%v78[v80[1 + (224 -(55 + 166)) ]] ;v72=v72 + 1 ;v80=v68[v72];v78[v80[1 + 1 ]]=v80[8 -(1 + 4) ] + v78[v80[13 -9 ]] ;v72=v72 + 1 + 0 + 0 ;v80=v68[v72];v78[v80[1 + 1 ]]= #v78[v80[3]];v72=v72 + 1 + (0 -0) ;v80=v68[v72];v78[v80[2]]=v78[v80[3 + 0 ]]%v78[v80[2 + 2 ]] ;v72=v72 + 1 ;v80=v68[v72];v78[v80[(1732 -(36 + 261)) -(797 + 636) ]]=v80[14 -(19 -8) ] + v78[v80[1623 -(1427 + (1560 -(34 + 1334))) ]] ;v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[1 + 1 ]]=v78[v80[6 -3 ]] + v80[4 + 0 ] ;v72=v72 + 1 + 0 ;v80=v68[v72];v242=v80[(255 + 73) -(192 + 134) ];v240,v241=v71(v78[v242](v13(v78,v242 + (1277 -(316 + 960)) ,v80[2 + 1 ])));v73=(v241 + v242) -(1 + 0) ;v239=0 + (1283 -(1035 + 248)) ;for v366=v242,v73 do v239=v239 + (3 -2) ;v78[v366]=v240[v239];end v72=v72 + (552 -(83 + 468)) ;v80=v68[v72];v242=v80[1808 -(1202 + 604) ];v240,v241=v71(v78[v242](v13(v78,v242 + (4 -3) ,v73)));v73=(v241 + v242) -(1 -(21 -(20 + 1))) ;v239=0 -0 ;for v369=v242,v73 do local v370=(170 + 155) -(45 + 280) ;while true do if ((432==432) and (v370==(0 + 0))) then v239=v239 + (320 -(134 + 185)) + 0 ;v78[v369]=v240[v239];break;end end end v72=v72 + 1 + 0 ;v80=v68[v72];v242=v80[2];v78[v242]=v78[v242](v13(v78,v242 + 1 + 0 ,v73));v72=v72 + 1 ;v80=v68[v72];v78[v80[1 + 1 ]]=v78[v80[(1138 -(549 + 584)) -2 ]]%v80[(2600 -(314 + 371)) -(340 + 1571) ] ;v72=v72 + 1 + 0 ;v80=v68[v72];v242=v80[1774 -(1733 + 39) ];v240,v241=v71(v78[v242](v78[v242 + (2 -1) ]));v73=(v241 + v242) -(1035 -(125 + 909)) ;v239=1948 -(1096 + (2924 -2072)) ;for v371=v242,v73 do v239=v239 + 1 + 0 ;v78[v371]=v240[v239];end v72=v72 + 1 ;v80=v68[v72];v242=v80[2 -0 ];v78[v242](v13(v78,v242 + (969 -(478 + 490)) + 0 ,v73));end elseif (v81==32) then v78[v80[2]]=v78[v80[(273 + 242) -(409 + 103) ]] * v78[v80[240 -(46 + 190) ]] ;else v78[v80[97 -(51 + 44) ]][v78[v80[1 + 2 ]]]=v80[4];end elseif ((v81<=36) or (1145>=1253)) then if (v81<=(1351 -((2286 -(786 + 386)) + 203))) then do return;end elseif ((3418>2118) and (v81>(761 -(228 + 498)))) then v78[v80[1 + 1 ]]=v29(v69[v80[2 + 1 ]],nil,v61);elseif ((3066<=3890) and (v78[v80[(2153 -1488) -(174 + (1868 -(1055 + 324))) ]]<v78[v80[10 -6 ]])) then v72=v72 + 1 ;else v72=v80[1908 -(830 + 1075) ];end elseif (v81<=(562 -(303 + 221))) then if (v81==(1306 -(231 + 1038))) then local v274=0 + 0 ;local v275;while true do if ((1162 -(171 + 991))==v274) then v275=nil;v61[v80[12 -(1349 -(1093 + 247)) ]]=v78[v80[5 -3 ]];v72=v72 + (2 -1) ;v80=v68[v72];v274=1 + 0 ;end if (v274==(17 -12)) then v78[v80[2]]=v78[v80[3]];v72=v72 + (2 -1) ;v80=v68[v72];v78[v80[2]]=v80[(4 + 0) -1 ];v274=6;end if ((4==v274) or (2998>=3281) or (876>2550)) then v275=v80[6 -4 ];v78[v275]=v78[v275](v78[v275 + 1 + 0 ]);v72=v72 + (1249 -(111 + (4514 -3377))) ;v80=v68[v72];v274=163 -(91 + 67) ;end if ((v274==(5 -3)) or (4649<=2632)) then v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[525 -(423 + (339 -239)) ]]=v78[v80[1 + 2 ]][v78[v80[10 -6 ]]];v72=v72 + 1 + 0 ;v274=3;end if ((772 -((927 -601) + (1118 -673)))==v274) then v78[v80[8 -6 ]]=v61[v80[6 -3 ]];v72=v72 + (2 -1) ;v80=v68[v72];v78[v80[(254 + 459) -((2041 -1511) + 181) ]]=v78[v80[884 -((2116 -1502) + 267) ]][v80[36 -(19 + 13) ]];v274=2;end if ((219<=2456) and ((v274==(4 -1)) or (3860>4872))) then v80=v68[v72];v78[v80[4 -2 ]]=v80[8 -(4 + 1) ];v72=v72 + 1 ;v80=v68[v72];v274=4;end if (v274==(2 + 4)) then v72=v72 + (1 -0) ;v80=v68[v72];v72=v80[(15 -9) -3 ];break;end end else v78[v80[(2502 -(364 + 324)) -(1293 + 519) ]]=v78[v80[5 -2 ]] + v80[9 -5 ] ;end elseif (v81==39) then local v277=v80[3 -1 ];v78[v277]=v78[v277](v78[v277 + ((10 -6) -(6 -3)) ]);else v78[v80[2]]=v78[v80[6 -3 ]]%v80[3 + 1 + 0 ] ;end elseif (v81<=47) then if ((v81<=(9 + 34)) or (4219==1150)) then if (v81<=(95 -54)) then local v125=v80[1 + 1 ];v78[v125]=v78[v125](v13(v78,v125 + 1 + 0 ,v80[2 + 1 ]));elseif (v81>42) then v78[v80[1098 -(709 + (1619 -1232)) ]]=v80[1861 -(673 + 1185) ]~=(0 -0) ;else local v281=v80[2 -0 ];do return v78[v281](v13(v78,v281 + (3 -2) ,v80[3]));end end elseif ((v81<=((224 -150) -29)) or (3998==2298)) then if ((v81>(32 + 12)) or (2989<=222)) then local v282=v80[2 + (1268 -(1249 + 19)) ];local v283,v284=v71(v78[v282](v78[v282 + (1 -0) ]));v73=(v284 + v282) -(1 + 0) ;local v285=0 -0 ;for v374=v282,v73 do v285=v285 + 1 ;v78[v374]=v283[v285];end else v78[v80[3 -1 ]]=v78[v80[1883 -(403 + 43 + 1434) ]][v80[1287 -(1040 + 243) ]];end elseif (v81==(137 -91)) then v78[v80[1849 -((2175 -1616) + 1288) ]][v78[v80[3]]]=v78[v80[(3021 -(686 + 400)) -(609 + 1038 + 284) ]];else v78[v80[456 -(13 + 441) ]]={};end elseif ((v81<=(186 -136)) or (8>=2739)) then if (v81<=(125 -77)) then local v127=v80[9 -7 ];v78[v127](v13(v78,v127 + 1 + 0 ,v73));elseif (v81==(177 -128)) then local v291;local v292;local v293;v78[v80[1 + 1 ]]={};v72=v72 + 1 + (229 -(73 + 156)) ;v80=v68[v72];v78[v80[2]]=v80[8 -5 ];v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[3 -1 ]]= #v78[v80[2 + 1 ]];v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[2 + 0 ]]=v80[3];v72=v72 + 1 + 0 ;v80=v68[v72];v293=v80[2];v292=v78[v293];v291=v78[v293 + 2 + 0 + 0 ];if (v291>(433 -(153 + 280))) then if (v292>v78[v293 + (2 -1) ]) then v72=v80[3 + 0 ];else v78[v293 + 3 ]=v292;end elseif (v292<v78[v293 + 1 + 0 ]) then v72=v80[2 + 1 ];else v78[v293 + 3 + 0 ]=v292;end else local v304=0 + (811 -(721 + 90)) ;while true do if (v304==6) then if  not v78[v80[2 -0 ]] then v72=v72 + 1 + 0 ;else v72=v80[670 -(89 + 578) ];end break;end if ((2258>1241) and (v304==(4 + 1))) then v80=v68[v72];v78[v80[3 -1 ]]=v61[v80[1052 -(572 + 477) ]];v72=v72 + 1 + 0 ;v80=v68[v72];v304=6;end if (v304==1) then v72=v72 + 1 + 0 + 0 ;v80=v68[v72];v78[v80[2]]=v78[v80[1 + 2 ]][v80[4]];v72=v72 + 1 ;v304=2;end if (v304==(89 -(84 + 2))) then v78[v80[2 -0 ]]=v78[v80[3 + 0 ]][v80[846 -(497 + 345) ]];v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[(3 -2) + 1 ]]=v61[v80[3]];v304=1337 -(605 + 728) ;end if ((3 + 1)==v304) then v72=v72 + (471 -(224 + 246)) ;v80=v68[v72];v78[v80[3 -1 ]]=v78[v80[1 + 2 ]][v80[14 -10 ]];v72=v72 + 1 + 0 ;v304=13 -8 ;end if ((2590==2590) and ((2 + 0)==v304)) then v80=v68[v72];v78[v80[491 -(457 + 32) ]]=v61[v80[2 + 1 ]];v72=v72 + (1403 -(832 + 570)) ;v80=v68[v72];v304=3;end if ((41<4259) and (v304==(0 + 0))) then v78[v80[2]]={};v72=v72 + 1 ;v80=v68[v72];v78[v80[1 + 1 ]]=v61[v80[10 -(11 -4) ]];v304=1;end end end elseif (v81<=((47 -21) + 26)) then if (v81>(847 -(588 + 208))) then v78[v80[2]]=v61[v80[8 -5 ]];else local v307=v80[1802 -(884 + 916) ];local v308,v309=v71(v78[v307](v13(v78,v307 + (1 -0) ,v80[2 + 1 + 0 ])));v73=(v309 + v307) -(654 -(232 + 421)) ;local v310=(45 + 1844) -(1569 + 320) ;for v377=v307,v73 do local v378=0;while true do if (((0 + 0)==v378) or (1930<56)) then v310=v310 + 1 + 0 + (0 -0) ;v78[v377]=v308[v310];break;end end end end elseif ((v81>(178 -125)) or (82>=1870)) then local v311=v80[607 -(316 + 289) ];v78[v311](v78[v311 + (2 -1) ]);else local v312=0;local v313;while true do if ((2624<4557) and (v312==(0 + 0))) then v313=v80[1455 -((2216 -1550) + 787) ];v78[v313]=v78[v313](v13(v78,v313 + (426 -(360 + 65)) ,v73));break;end end end v72=v72 + 1 + 0 ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!293Q0003063Q00737472696E6703043Q006368617203043Q00627974652Q033Q0073756203053Q0062697433322Q033Q0062697403043Q0062786F7203053Q007461626C6503063Q00636F6E63617403063Q00696E73657274026Q001C4003043Q003DD3398D03043Q00E849A14C026Q00184003163Q00E33330A6CAA58B3325E0CBB9C83D33E39EA8CE2F33B903063Q00CAAB5C4786BE026Q00144003153Q0011B38E21DC3DB58D08DC10BB9F38CA16B28E39DC1103053Q00B962DAEB57027Q0040030D3Q008CD1DE2Q076BBACCC2040671FC03063Q004BDCA3B76A62026Q00F03F03343Q0006454B035E2C4745406E165D50095B225A7F40422C454E40562A44520C50314C4E19152D4046051531414B1315365D50095B220803053Q003545292260028Q0003193Q00AF3856DCB33951DDA57A44C1A57A53C6AE3E59DDA9355EDAE103043Q00A9C05A30026Q000840026Q00104003053Q007072696E7403053Q00706169727303153Q0073696576655F6F665F657261746F737468656E657303023Q005F47025Q00407A40024Q00F0E4FD40026Q003440025Q00C05940023Q00406E9B5E41025Q005D3241024Q0087C63241009B4Q00327Q00122Q000100013Q00202Q00010001000200122Q000200013Q00202Q00020002000300122Q000300013Q00202Q00030003000400122Q000400053Q00062Q0004000B0001000100044Q000B0001001234000400063Q00202C000500040007001234000600083Q00202C000600060009001234000700083Q00202C00070007000A00061400083Q000100062Q000D3Q00074Q000D3Q00014Q000D3Q00054Q000D3Q00024Q000D3Q00034Q000D3Q00064Q001B000900083Q00122Q000A000C3Q00122Q000B000D6Q0009000B000200104Q000B00094Q000900083Q00122Q000A000F3Q00122Q000B00106Q0009000B000200104Q000E00092Q001B000900083Q00122Q000A00123Q00122Q000B00136Q0009000B000200104Q001100094Q000900083Q00122Q000A00153Q00122Q000B00166Q0009000B000200104Q001400092Q001B000900083Q00122Q000A00183Q00122Q000B00196Q0009000B000200104Q001700094Q000900083Q00122Q000A001B3Q00122Q000B001C6Q0009000B000200104Q001A000900120F0009001A4Q000A000A000E3Q0026010009003C0001001A00044Q003C000100120F000A001A4Q000A000B000B3Q00120F000900173Q002601000900950001001400044Q009500012Q000A000E000E3Q002601000A00530001001D00044Q0053000100120F000F001A3Q002601000F00460001001700044Q0046000100120F000A001E3Q00044Q00530001002601000F00420001001A00044Q0042000100100700100017000E000623000D004E0001001000044Q004E00010012340010001F3Q00202C00113Q001A2Q00360010000200010012340010001F3Q00202C00113Q00172Q003600100002000100120F000F00173Q00044Q00420001002601000A00770001001E00044Q0077000100120F000F001A4Q000A001000103Q000E04001700670001000F00044Q00670001001234001100204Q000D001200104Q001600110002001300044Q0064000100060B0015006400013Q00044Q006400010012340016001F3Q00202C00173Q00142Q000D001800144Q00030017001700182Q00360016000200010006110011005D0001000200044Q005D000100044Q00730001000E04001A00570001000F00044Q00570001000224001100013Q001225001100213Q00122Q001100223Q00202Q00123Q00114Q00110011001200122Q001200236Q0011000200024Q001000113Q00122Q000F00173Q00044Q00570001001234000F001F3Q00202C00103Q000E2Q0036000F0002000100044Q009A0001002601000A007D0001001A00044Q007D000100120F000B00243Q002026000F000B0025002026000B000F002600120F000A00173Q002601000A00860001001400044Q0086000100120F000E00273Q000623000C00850001000D00044Q00850001001234000F001F3Q00202C00103Q000B2Q0036000F0002000100120F000A001D3Q002601000A003F0001001700044Q003F000100120F000F001A3Q002601000F008E0001001A00044Q008E000100120F000C00283Q00120F000D00293Q00120F000F00173Q002601000F00890001001700044Q0089000100120F000A00143Q00044Q003F000100044Q0089000100044Q003F000100044Q009A0001002601000900370001001700044Q003700012Q000A000C000D3Q00120F000900143Q00044Q003700012Q00223Q00013Q00023Q00023Q00026Q00F03F026Q00704002264Q003100025Q00122Q000300016Q00045Q00122Q000500013Q00042Q0003002100012Q001000076Q001F000800026Q000900016Q000A00026Q000B00036Q000C00046Q000D8Q000E00063Q00202Q000F000600014Q000C000F6Q000B3Q00024Q000C00036Q000D00046Q000E00016Q000F00016Q000F0006000F00102Q000F0001000F4Q001000016Q00100006001000102Q00100001001000202Q0010001000014Q000D00106Q000C8Q000A3Q000200202Q000A000A00024Q0009000A6Q00073Q000100041E0003000500012Q0010000300054Q000D000400024Q002A000300044Q000800036Q00223Q00017Q00073Q00028Q00026Q00F03F027Q004003043Q006D61746803053Q00666C2Q6F7203043Q0073717274010001363Q00120F000100014Q000A000200023Q000E04000100190001000100044Q0019000100120F000300013Q002601000300090001000200044Q0009000100120F000100023Q00044Q00190001000E04000100050001000300044Q000500012Q002F00046Q0018000200043Q00122Q000400026Q00055Q00122Q000600023Q00042Q000400170001000E04000200140001000700044Q001400012Q001D00086Q002B000800014Q002E00020007000800041E00040011000100120F000300023Q00044Q00050001002601000100020001000200044Q0002000100120F000300013Q0026010003001C0001000100044Q001C000100120F000400033Q00120E000500043Q00202Q00050005000500122Q000600043Q00202Q0006000600064Q00078Q000600076Q00053Q000200122Q000600023Q00042Q0004003200012Q000600080002000700060B0008003100013Q00044Q003100012Q00200008000700072Q000D00096Q000D000A00073Q0004020008003100010020210002000B000700041E0008002F000100041E0004002800012Q0012000200023Q00044Q001C000100044Q000200012Q00223Q00017Q00",v9(),...);
+local cloneref = cloneref or function(x) return x end
+
+local Library = {
+    RainbowColorValue = 0;
+    HueSelectionPosition = 0;
+    Connections = {};
+    AnimateText = false;
+    Debug = true;
+    MobileButton = false
+}
+
+local InputService = cloneref(game:GetService('UserInputService'));
+local TextService = cloneref(game:GetService('TextService'));
+local CoreGui = cloneref(game:GetService('CoreGui'));
+local Teams = cloneref(game:GetService('Teams'));
+local Players = cloneref(game:GetService('Players'));
+local RunService = cloneref(game:GetService('RunService'));
+local TweenService = cloneref(game:GetService('TweenService'));
+local RenderStepped = RunService.RenderStepped;
+local LocalPlayer = Players.LocalPlayer;
+local Mouse = LocalPlayer:GetMouse();
+local ThemeColor, GameID, LibraryBind = Color3.fromRGB(255, 0, 0), game.GameId, Enum.KeyCode.LeftControl
+local getgenv = getgenv or function() return {} end
+
+if Destruct and Destruct.Unload then
+    Destruct:Unload()
+end
+
+getgenv().Destruct = {}
+
+local Toggles, Options = {}, {}
+getgenv().Toggles = Toggles
+getgenv().Options = Options
+
+local ScreenGui = Instance.new("ScreenGui", CoreGui)
+ScreenGui.Name = "Horizon"
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+
+task.spawn(function()
+	while ScreenGui.Parent do
+		Library.RainbowColorValue = Library.RainbowColorValue + 1 / 255
+		Library.HueSelectionPosition = Library.HueSelectionPosition + 1
+
+		if Library.RainbowColorValue >= 1 then
+			Library.RainbowColorValue = 0
+		end
+
+		if Library.HueSelectionPosition == 80 then
+			Library.HueSelectionPosition = 0
+		end
+		task.wait()
+	end
+end)
+
+local function AnimateText(display, text, repeatCount, delay)
+    if not display then return end
+    local animatedRandom = "1234567890"
+    for i = 1, #text do
+        local revealChar = text:sub(i, i)
+        local displayText = text:sub(1, i - 1)
+
+        for _ = 1, math.random(1, 6) do
+            local random = math.random(1, #animatedRandom)
+            local randomChar = animatedRandom:sub(random, random)
+            display.Text = displayText .. randomChar
+            task.wait(delay)
+            if Library.AnimateText then
+                break
+            end
+        end
+        display.Text = displayText .. revealChar
+        task.wait(delay)
+        if Library.AnimateText then
+            break
+        end
+    end
+    task.wait(5)
+end
+
+local blacklistedKeybinds = {Enum.KeyCode.Unknown,Enum.KeyCode.W,Enum.KeyCode.A,Enum.KeyCode.S,Enum.KeyCode.D,
+Enum.KeyCode.Up,Enum.KeyCode.Left,Enum.KeyCode.Down,Enum.KeyCode.Right,Enum.KeyCode.Slash,Enum.KeyCode.Tab,Enum.KeyCode.Backspace,Enum.KeyCode.Escape}
+
+function Library:BlacklistKeybinds(keybinds)
+    if type(keybinds) ~= "table" then 
+        return warn("Invalid Argument") 
+    end
+    for _, key in next, keybinds do
+        if typeof(key) == "EnumItem" then
+            table.insert(blacklistedKeybinds, key)
+        end
+    end
+end
+
+local function CheckDevice()
+    if InputService.KeyboardEnabled and not InputService.TouchEnabled then
+        return "PC"
+    elseif InputService.TouchEnabled and not InputService.KeyboardEnabled then
+        return "Mobile"
+    elseif InputService.KeyboardEnabled and InputService.TouchEnabled then
+        return "Emulator"
+    elseif InputService.GamepadEnabled and not InputService.TouchEnabled then
+        return "Console"
+    end
+    return "Unknow Device"
+end
+
+function Library:Unload()
+    if ScreenGui then
+        ScreenGui:Destroy()
+    end
+    for i,v in next, Library.Connections do
+		v:Disconnect()
+        Library.Connections[i] = nil
+	end
+    getgenv().Destruct = nil
+end
+
+function Destruct:Unload()
+    if ScreenGui:FindFirstChild("UI") then
+        ScreenGui["UI"]:Destroy()
+    end
+    if ScreenGui then
+        ScreenGui:Destroy()
+    end
+    for i,v in next, Library.Connections do
+		v:Disconnect()
+        Library.Connections[i] = nil
+	end
+    getgenv().Destruct = nil
+end
+
+function Library:MakeDraggable(topbarobject, object)
+    local Dragging = nil
+    local DragInput = nil
+    local DragStart = nil
+    local StartPosition = nil
+
+    local function Update(input)
+        local Delta = input.Position - DragStart
+        local pos =
+            UDim2.new(
+            StartPosition.X.Scale,
+            StartPosition.X.Offset + Delta.X,
+            StartPosition.Y.Scale,
+            StartPosition.Y.Offset + Delta.Y
+        )
+        object.Position = pos
+    end
+
+    Library.Connections[#Library.Connections + 1] = topbarobject.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            Dragging = true
+            DragStart = input.Position
+            StartPosition = object.Position
+
+            Library.Connections[#Library.Connections + 1] = input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    Dragging = false
+                end
+            end)
+        end
+    end)
+
+    Library.Connections[#Library.Connections + 1] = topbarobject.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            DragInput = input
+        end
+    end)
+
+    Library.Connections[#Library.Connections + 1] = InputService.InputChanged:Connect(function(input)
+        if input == DragInput and Dragging then
+            Update(input)
+        end
+    end)
+end
+
+local function GetPlayersString()
+    local PlayerList = Players:GetPlayers();
+
+    for i = 1, #PlayerList do
+        PlayerList[i] = PlayerList[i].Name;
+    end;
+
+    table.sort(PlayerList, function(str1, str2) return str1 < str2 end);
+
+    return PlayerList;
+end;
+
+local function GetTeamsString()
+    local TeamList = Teams:GetTeams();
+
+    for i = 1, #TeamList do
+        TeamList[i] = TeamList[i].Name;
+    end;
+
+    table.sort(TeamList, function(str1, str2) return str1 < str2 end);
+    
+    return TeamList;
+end;
+
+local notifications = {}
+
+function Library:Notify(text, delay, size)
+    local Delay = delay or 5
+
+    local ScreenGui = Instance.new("ScreenGui", CoreGui)
+    local MainFrame = Instance.new("Frame", ScreenGui)
+
+    ScreenGui.Name = "2X"
+    ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+            
+    MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    MainFrame.BorderColor3 = Color3.fromRGB(70, 70, 70)
+    MainFrame.BorderSizePixel = 1.2
+    MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+    MainFrame.BackgroundTransparency = 0.250
+    MainFrame.Position = UDim2.new(0.5, 0, 0.5, -325)
+    MainFrame.Size = size or UDim2.fromOffset(350,40)
+
+    local UICorner = Instance.new("UICorner", MainFrame)
+    UICorner.CornerRadius = UDim.new(0.5,0)
+
+    local MainLabel = Instance.new("TextLabel", MainFrame)
+    MainLabel.Font = Enum.Font.GothamBlack
+    MainLabel.Text = text or "Fail"
+    MainLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+    MainLabel.TextColor3 = Color3.fromRGB(255,255,255)
+    MainLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+    MainLabel.Size = size or UDim2.new(0, 350, 0, 40)
+    MainLabel.BackgroundTransparency = 1
+    MainLabel.TextSize = 18
+    MainLabel.TextXAlignment = Enum.TextXAlignment.Center
+    MainLabel.TextYAlignment = Enum.TextYAlignment.Center
+
+    local ws = cloneref(game:GetService("Workspace"))
+
+    local StartPositionY = 0.2
+    local Spacing = 45
+
+    table.insert(notifications, ScreenGui)
+
+    local NewY = StartPositionY + (#notifications * Spacing) / ws.CurrentCamera.ViewportSize.Y
+
+    MainFrame.Position = UDim2.new(0.5, 0, NewY, 0)
+
+    task.delay(Delay, function()
+        for i, v in next, notifications do
+            if v == ScreenGui then
+                table.remove(notifications, i)
+                break
+            end
+        end
+        ScreenGui:Destroy()
+    end)
+end
+
+function Library:CreateLabel(label)
+    assert(label.Text, "Missing text")
+    assert(label.Title, "Missing title")
+
+    local ScreenGui = Instance.new("ScreenGui", CoreGui)
+    local MainFrame = Instance.new("Frame", ScreenGui)
+
+    MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    MainFrame.BorderColor3 = Color3.fromRGB(70, 70, 70)
+    MainFrame.BorderSizePixel = 1.2
+    MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+    MainFrame.BackgroundTransparency = 0.250
+    MainFrame.Position = UDim2.new(0.4, 0, 0.45, 0)
+    MainFrame.Size = UDim2.new(0.1, label.widthx or 0, 0.1, label.widthx or 0)
+
+    local UICorner = Instance.new("UICorner", MainFrame)
+    UICorner.CornerRadius = UDim.new(0.1, 0)
+
+    local TitleLabel = Instance.new("TextLabel", MainFrame)
+    TitleLabel.Font = Enum.Font.GothamBlack
+    TitleLabel.Text = label.Title
+    TitleLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+    TitleLabel.TextColor3 = Color3.fromRGB(255,255,255)
+    TitleLabel.Position = UDim2.new(0.5, 0, 0.5, -35)
+    TitleLabel.Size = UDim2.new(1, label.widthx or 0, 0, label.widthy or -20)
+    TitleLabel.BackgroundTransparency = 1
+    TitleLabel.TextSize = 18
+    TitleLabel.TextXAlignment = Enum.TextXAlignment.Center
+
+    local MainLabel = Instance.new("TextLabel", MainFrame)
+    MainLabel.Font = Enum.Font.GothamBlack
+    MainLabel.Text = label.Text
+    MainLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+    MainLabel.TextColor3 = Color3.fromRGB(255,255,255)
+    MainLabel.Position = UDim2.new(0.5, 0, 0.5, 10)
+    MainLabel.Size = UDim2.new(1, label.widthx or 0, 1, label.widthy or -20)
+    MainLabel.BackgroundTransparency = 1
+    MainLabel.TextSize = 18
+    MainLabel.TextXAlignment = Enum.TextXAlignment.Left
+    MainLabel.TextYAlignment = Enum.TextYAlignment.Top
+
+    return MainLabel, MainFrame
+end
+
+function Library:SafeCallback(f, ...)
+    if (not f) then
+        return;
+    end;
+
+    if not Library.Debug then
+        return f(...);
+    end;
+
+    local success, event = pcall(f, ...);
+
+    if not success then
+        local _, i = event:find(":%d+:");
+
+        if not i then
+            return Library:Notify(event, 3, nil);
+        end;
+
+        return Library:Notify(event:sub(i + 1), 3, nil);
+    end;
+end;
+
+function Library:AttemptSave()
+    if Library.SaveManager then
+        Library.SaveManager:Save();
+    end;
+end;
+
+function Library:Create(Class, Properties)
+    local _Instance = Class;
+
+    if type(Class) == 'string' then
+        _Instance = Instance.new(Class);
+    end;
+
+    for Property, Value in next, Properties do
+        _Instance[Property] = Value;
+    end;
+
+    return _Instance;
+end;
+
+local BaseAddons = {};
+
+function Library:ChangeBind(key)
+	LibraryBind = key
+end
+
+function Library:Window(title, version, info, preset, closebind)
+    LibraryBind = closebind or Enum.KeyCode.LeftShift
+    ThemeColor = preset or Color3.fromRGB(255, 0, 0)
+    fs = false
+    local Main = Instance.new("Frame")
+    local TabHold = Instance.new("Frame")
+
+    local TabHoldLayout = Instance.new("UIListLayout")
+    local Title = Instance.new("TextLabel")
+    local TabFolder = Instance.new("Folder")
+    local DragFrame = Instance.new("Frame")
+	local close = Instance.new("ImageButton")
+
+    Main.Name = "Main"
+    Main.Parent = ScreenGui
+    Main.AnchorPoint = Vector2.new(0.5, 0.5)
+    Main.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+    Main.BorderSizePixel = 0
+    Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+    Main.Size = UDim2.new(0, 560, 0, 319)
+    Main.ClipsDescendants = false
+    Main.Visible = true
+
+    Library:Create("UICorner", {
+        CornerRadius = UDim.new(0.1,0),
+        Parent = Main
+    })
+    
+    local background = Instance.new("ImageLabel", Main)
+    background.Name = "Background"
+    background.Image = "rbxassetid://128314866000502"
+    background.AnchorPoint = Vector2.new(0.5, 0.5)
+    background.Position = UDim2.new(Main.Position.X, Main.Position.Y)
+    background.Size = UDim2.new(0, Main.AbsoluteSize.X, 0, Main.AbsoluteSize.Y)
+    background.ImageTransparency = 0.5
+    background.BackgroundTransparency = 1
+    background.ZIndex = 1
+
+    Library:Create("UICorner", {
+        CornerRadius = UDim.new(1,0),
+        Parent = background
+    })
+
+    function Library:ChangeBackground(id)
+        background.Image = "rbxassetid://" .. tostring(id)
+    end
+
+    function Library:RemoveBackground()
+        background.Image = ""
+    end
+
+    local FadeBackgroundFrame = Instance.new("Frame")
+
+	FadeBackgroundFrame.Name = "FadeBackgroundFrame"
+	FadeBackgroundFrame.Parent = Main
+	FadeBackgroundFrame.BackgroundColor3 = Color3.fromRGB(27,27, 27)
+	FadeBackgroundFrame.BackgroundTransparency = 1.000
+	FadeBackgroundFrame.BorderSizePixel = 0
+	FadeBackgroundFrame.Size = UDim2.new(1, 0, 1, 0)
+	FadeBackgroundFrame.ZIndex = 3
+
+	close.Name = "close"
+    close.Parent = Main
+    close.BackgroundTransparency = 1.000
+    close.Position = UDim2.new(0.94, 4, 0, 8.5)
+    close.Size = UDim2.new(0, 21, 0, 21)
+    close.ZIndex = 2
+    close.Image = "rbxassetid://3926305904"
+    close.ImageRectOffset = Vector2.new(284, 4)
+    close.ImageRectSize = Vector2.new(24, 24)
+    Library.Connections[#Library.Connections + 1] = close.MouseButton1Click:Connect(function()
+        Main.Visible = false
+    end)
+
+    TabHold.Name = "TabHold"
+    TabHold.Parent = Main
+    TabHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TabHold.BackgroundTransparency = 1.000
+    TabHold.Position = UDim2.new(0.0339285731, 0, 0.147335425, 0)
+    TabHold.Size = UDim2.new(0, 107, 0, 254)
+
+    TabHoldLayout.Name = "TabHoldLayout"
+    TabHoldLayout.Parent = TabHold
+    TabHoldLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    TabHoldLayout.Padding = UDim.new(0, 11)
+
+    Title.Name = "Title"
+    Title.Parent = Main
+    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundTransparency = 1.000
+    Title.Position = UDim2.new(0.0339285731, 0, 0.0274263314, -5)
+    Title.Size = UDim2.new(0, 200, 0, 23)
+    Title.Font = Enum.Font.GothamBlack
+    Title.Text = title or "Unknown Title"
+
+    local Version = version or "Unknown Version"
+    local Information = info or "No Information"
+
+    local textDisplays = {
+        title,
+        Version,
+        Information
+    }
+
+    task.spawn(function()
+        while ScreenGui.Parent do
+            local repeatCount = 10
+            local delay = 0.05
+            for _, v in ipairs(textDisplays) do
+                AnimateText(Title, v, repeatCount, delay)
+            end
+            if Library.AnimateText then
+                Title.Text = title .. " " .. Version
+                break
+            end
+            task.wait(5)
+        end
+    end)
+
+    task.spawn(function()
+        while ScreenGui.Parent do
+            Title.TextColor3 = ThemeColor
+            task.wait()
+        end
+    end)
+
+    Title.TextSize = 20
+    Title.TextXAlignment = Enum.TextXAlignment.Left
+
+    DragFrame.Name = "DragFrame"
+    DragFrame.Parent = Main
+    DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    DragFrame.BackgroundTransparency = 1.000
+    DragFrame.Size = UDim2.new(0, 560, 0, 41)
+
+    Library:MakeDraggable(DragFrame, Main)
+
+    Library.Connections[#Library.Connections + 1] = InputService.InputBegan:Connect(function(io, p)
+        if io.KeyCode == LibraryBind and not table.find(blacklistedKeybinds, io.KeyCode) then
+            if Main.Visible then
+                Main.Visible = false
+			elseif Main.Visible == false then
+                Main.Visible = true
+            end
+            task.spawn(function()
+                if Drawing and Drawing.new then
+                    local State = InputService.MouseIconEnabled;
+
+                    local Cursor = Drawing.new('Triangle');
+                    Cursor.Thickness = 1;
+                    Cursor.Filled = true;
+                    Cursor.Visible = true;
+    
+                    local CursorOutline = Drawing.new('Triangle');
+                    CursorOutline.Thickness = 1;
+                    CursorOutline.Filled = false;
+                    CursorOutline.Color = Color3.new(255, 255, 255);
+                    CursorOutline.Visible = true;
+    
+                    while Main and Main.Visible and ScreenGui.Parent do
+                        InputService.MouseIconEnabled = false;
+    
+                        local mPos = InputService:GetMouseLocation();
+
+                        Cursor.Color = Color3.fromRGB(255, 255, 255);
+        
+                        Cursor.PointA = Vector2.new(mPos.X, mPos.Y);
+                        Cursor.PointB = Vector2.new(mPos.X + 16, mPos.Y + 6);
+                        Cursor.PointC = Vector2.new(mPos.X + 6, mPos.Y + 16);
+    
+                        CursorOutline.PointA = Cursor.PointA;
+                        CursorOutline.PointB = Cursor.PointB;
+                        CursorOutline.PointC = Cursor.PointC;
+    
+                        RenderStepped:Wait();
+                    end;
+    
+                    InputService.MouseIconEnabled = State;
+    
+                    Cursor:Remove();
+                    CursorOutline:Remove();
+                end
+            end)
+            task.spawn(function()
+                while Main and Main.Visible and Main.Parent do
+                    if Main and Main.Visible and CheckDevice() == "PC" and InputService.MouseBehavior ~= Enum.MouseBehavior.Default then
+                        InputService.MouseBehavior = Enum.MouseBehavior.Default
+                    end
+                    if (CheckDevice() ~= "PC" or not ScreenGui.Parent) then
+                        break
+                    end
+                    task.wait()
+                end
+            end)
+        end
+    end)
+    if CheckDevice() == "Mobile" or CheckDevice() == "Emulator" then
+        local rbxguix = CoreGui:FindFirstChild("Horizon")
+        if not rbxguix then
+            warn("Library not found!")
+            return
+        end
+        local QuickCapture = Instance.new("TextButton", rbxguix)
+        QuickCapture.Name = "UI"
+        QuickCapture.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+        QuickCapture.BackgroundTransparency = 0.14
+        QuickCapture.Position = UDim2.new(0.93, 0, 0, 40)
+        QuickCapture.Size = UDim2.new(0, 33, 0, 33)
+        QuickCapture.Font = Enum.Font.SourceSansBold
+        QuickCapture.Text = "ON"
+        QuickCapture.TextColor3 = Color3.fromRGB(0, 255, 0)
+        QuickCapture.TextSize = 20.000
+        QuickCapture.TextWrapped = true
+        QuickCapture.Draggable = Library and Library.OCbtn or false
+
+        Library.Connections = Library.Connections or {}
+        table.insert(Library.Connections, QuickCapture.MouseButton1Click:Connect(function()
+            if Main and typeof(Main.Visible) == "boolean" then
+                Main.Visible = not Main.Visible
+                QuickCapture.Text = Main.Visible and "ON" or "OFF"
+                QuickCapture.TextColor3 = Main.Visible and 
+                Color3.fromRGB(0, 255, 0) or
+                Color3.fromRGB(255, 0, 0)
+            else
+                warn("Library property is missing!")
+            end
+        end))
+    end
+
+    TabFolder.Name = "TabFolder"
+    TabFolder.Parent = Main
+
+    function Library:ChangePresetColor(toch)
+        ThemeColor = toch
+    end
+
+    function Library:Notification(texttitle, textdesc, delay, autodestroy)
+        local NotificationHold = Instance.new("TextButton")
+        local NotificationFrame = Instance.new("Frame")
+        local OkayBtn = Instance.new("TextButton")
+        local OkayBtnCorner = Instance.new("UICorner")
+        local OkayBtnTitle = Instance.new("TextLabel")
+        local NotificationTitle = Instance.new("TextLabel")
+        local NotificationDesc = Instance.new("TextLabel")
+
+        local Delay = delay or 6
+        local autoDestroy = autodestroy or false
+
+        NotificationHold.Name = "NotificationHold"
+        NotificationHold.Parent = Main
+        NotificationHold.BackgroundColor3 = ThemeColor
+        NotificationHold.BackgroundTransparency = 1
+        NotificationHold.BorderSizePixel = 0
+        NotificationHold.Size = UDim2.new(0, 560, 0, 319)
+        NotificationHold.AutoButtonColor = false
+        NotificationHold.Font = Enum.Font.SourceSans
+        NotificationHold.Text = ""
+        NotificationHold.TextColor3 = Color3.fromRGB(0, 0, 0)
+        NotificationHold.TextSize = 14.000
+
+        NotificationFrame.Name = "NotificationFrame"
+        NotificationFrame.Parent = NotificationHold
+        NotificationFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+        NotificationFrame.BackgroundColor3 = Color3.fromRGB(30,30,30)
+        NotificationFrame.BackgroundTransparency = 0.5
+        NotificationFrame.BorderSizePixel = 0
+        NotificationFrame.ClipsDescendants = true
+        NotificationFrame.Position = UDim2.new(0.5, 0, 0.498432577, 0)
+        NotificationFrame.Size = UDim2.new(0, 164, 0, 193)
+
+        OkayBtn.Name = "OkayBtn"
+        OkayBtn.Parent = NotificationFrame
+        OkayBtn.BackgroundColor3 = Color3.fromRGB(0,255,0)
+        OkayBtn.BackgroundTransparency = 0.8
+        OkayBtn.Position = UDim2.new(0.0609756112, 0, 0.720207274, 0)
+        OkayBtn.Size = UDim2.new(0, 144, 0, 42)
+        OkayBtn.AutoButtonColor = false
+        OkayBtn.Font = Enum.Font.SourceSans
+        OkayBtn.Text = ""
+        OkayBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+        OkayBtn.TextSize = 14.000
+
+        OkayBtnCorner.CornerRadius = UDim.new(0, 5)
+        OkayBtnCorner.Name = "OkayBtnCorner"
+        OkayBtnCorner.Parent = OkayBtn
+
+        OkayBtnTitle.Name = "OkayBtnTitle"
+        OkayBtnTitle.Parent = OkayBtn
+        OkayBtnTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        OkayBtnTitle.BackgroundTransparency = 1.000
+        OkayBtnTitle.Position = UDim2.new(0.0763888881, 0, 0, 0)
+        OkayBtnTitle.Size = UDim2.new(0, 181, 0, 42)
+        OkayBtnTitle.Font = Enum.Font.GothamBlack
+        OkayBtnTitle.Text = autoDestroy and "Destroying..." or "Ok"
+        OkayBtnTitle.TextColor3 = Color3.fromRGB(0, 255, 255)
+        OkayBtnTitle.TextSize = 14.000
+        OkayBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+        NotificationTitle.Name = "NotificationTitle"
+        NotificationTitle.Parent = NotificationFrame
+        NotificationTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        NotificationTitle.BackgroundTransparency = 1.000
+        NotificationTitle.Position = UDim2.new(0.0670731738, 0, 0.0829015523, 0)
+        NotificationTitle.Size = UDim2.new(0, 143, 0, 26)
+        NotificationTitle.Font = Enum.Font.GothamBlack
+        NotificationTitle.Text = texttitle .. "\n------------------------"
+        NotificationTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
+        NotificationTitle.TextSize = 18.000
+        NotificationTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+        NotificationDesc.Name = "NotificationDesc"
+        NotificationDesc.Parent = NotificationFrame
+        NotificationDesc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        NotificationDesc.BackgroundTransparency = 1.000
+        NotificationDesc.Position = UDim2.new(0.0670000017, 0, 0.218999997, 0)
+        NotificationDesc.Size = UDim2.new(0, 143, 0, 91)
+        NotificationDesc.Font = Enum.Font.GothamBlack
+        NotificationDesc.Text = textdesc
+        NotificationDesc.TextColor3 = Color3.fromRGB(255, 255, 0)
+        NotificationDesc.TextSize = 15.000
+        NotificationDesc.TextWrapped = true
+        NotificationDesc.TextXAlignment = Enum.TextXAlignment.Left
+        NotificationDesc.TextYAlignment = Enum.TextYAlignment.Top
+
+        Library.Connections["Notify"] = OkayBtn.MouseButton1Click:Connect(function()
+            if not autoDestroy then
+                NotificationFrame.Size = UDim2.new(0, 164, 0, 193)
+                task.wait(0.5)
+                NotificationHold:Destroy()
+                if Library.Connections["Notify"] then
+                    Library.Connections["Notify"]:Disconnect()
+                    Library.Connections["Notify"] = nil
+                end
+            end
+        end)
+
+        if autoDestroy then
+            task.delay(delay, function()
+                NotificationHold:Destroy()
+                if Library.Connections["Notify"] then
+                    Library.Connections["Notify"]:Disconnect()
+                    Library.Connections["Notify"] = nil
+                end
+            end)
+        end
+
+    end
+
+    local Content = {}
+
+    function Content:Tab(text)
+        local TabBtn = Instance.new("TextButton")
+        local TabTitle = Instance.new("TextLabel")
+        local TabBtnIndicator = Instance.new("Frame")
+        local TabBtnIndicatorCorner = Instance.new("UICorner")
+
+        TabBtn.Name = "TabBtn"
+        TabBtn.Parent = TabHold
+        TabBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TabBtn.BackgroundTransparency = 1.000
+        TabBtn.Size = UDim2.new(0, 107, 0, 21)
+        TabBtn.Font = Enum.Font.SourceSans
+        TabBtn.Text = ""
+        TabBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+        TabBtn.TextSize = 14.000
+
+        TabTitle.Name = "TabTitle"
+        TabTitle.Parent = TabBtn
+        TabTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TabTitle.BackgroundTransparency = 1.000
+        TabTitle.Size = UDim2.new(0, 107, 0, 21)
+        TabTitle.Font = Enum.Font.GothamBlack
+        TabTitle.Text = text or "No Name"
+        TabTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+        TabTitle.TextSize = 14.000
+        TabTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+        TabBtnIndicator.Name = "TabBtnIndicator"
+        TabBtnIndicator.Parent = TabBtn
+        TabBtnIndicator.BackgroundColor3 = ThemeColor
+        TabBtnIndicator.BorderSizePixel = 0
+        TabBtnIndicator.Position = UDim2.new(0, 0, 1, 0)
+
+        TabBtnIndicatorCorner.Name = "TabBtnIndicatorCorner"
+        TabBtnIndicatorCorner.Parent = TabBtnIndicator
+
+        task.spawn(function()
+            while ScreenGui.Parent do
+                TabBtnIndicator.BackgroundColor3 = ThemeColor
+				task.wait()
+            end
+        end)
+
+        local Tab = Instance.new("ScrollingFrame")
+        local TabLayout = Instance.new("UIListLayout")
+
+        Tab.Name = "Tab"
+        Tab.Parent = TabFolder
+        Tab.Active = true
+        Tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Tab.BackgroundTransparency = 1.000
+        Tab.BorderSizePixel = 0
+        Tab.Position = UDim2.new(0.31400001, 0, 0.147, 0)
+        Tab.Size = UDim2.new(0, 373, 0, 254)
+        Tab.CanvasSize = UDim2.new(0, 0, 0, 0)
+        Tab.ScrollBarThickness = 3
+        Tab.Visible = false
+
+        TabLayout.Name = "TabLayout"
+        TabLayout.Parent = Tab
+        TabLayout.SortOrder = Enum.SortOrder.LayoutOrder
+        TabLayout.Padding = UDim.new(0, 6)
+
+        if fs == false then
+            fs = true
+            TabBtnIndicator.Size = UDim2.new(0, 13, 0, 2)
+            TabTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Tab.Visible = true
+        end
+
+        Library.Connections[#Library.Connections + 1] = TabBtn.MouseButton1Click:Connect(function()
+            for i, v in next, TabFolder:GetChildren() do
+                if v.Name == "Tab" then
+                    v.Visible = false
+                end
+                Tab.Visible = true
+            end
+            for i, v in next, TabHold:GetChildren() do
+                if v.Name == "TabBtn" then
+                    v.TabBtnIndicator.Size = UDim2.new(0, 0, 0, 2)
+                    TabBtnIndicator.Size = UDim2.new(0, 13, 0, 2)
+                end
+            end
+        end)
+
+        local Container = {}
+        
+        function Container:Button(text, callback)
+            local MainButton = Instance.new("TextButton")
+            local ButtonCorner = Instance.new("UICorner")
+            local ButtonTitle = Instance.new("TextLabel")
+
+            MainButton.Name = "Button"
+            MainButton.Parent = Tab
+            MainButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            MainButton.Size = UDim2.new(0, 363, 0, 42)
+            MainButton.AutoButtonColor = false
+            MainButton.BackgroundTransparency = 0.5
+            MainButton.Font = Enum.Font.SourceSans
+            MainButton.Text = ""
+            MainButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+            MainButton.TextSize = 14.000
+
+            ButtonCorner.CornerRadius = UDim.new(0, 5)
+            ButtonCorner.Name = "ButtonCorner"
+            ButtonCorner.Parent = MainButton
+
+            ButtonTitle.Name = "ButtonTitle"
+            ButtonTitle.Parent = MainButton
+            ButtonTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ButtonTitle.BackgroundTransparency = 1.000
+            ButtonTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            ButtonTitle.Size = UDim2.new(0, 187, 0, 42)
+            ButtonTitle.Font = Enum.Font.GothamBlack
+            ButtonTitle.Text = text
+            ButtonTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ButtonTitle.TextSize = 14
+            ButtonTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    MainButton.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+
+            local Button = {}
+
+            Button.Click = function()
+                Library:SafeCallback(callback)
+            end
+
+            Library.Connections[#Library.Connections + 1] = MainButton.MouseButton1Click:Connect(function()
+                Library:SafeCallback(callback)
+            end)
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            Options[text] = Button
+            return Button
+        end
+
+        function Container:MakeToggle(Idx, Info)
+            assert(Info.Text, 'AddInput: Missing `Text` string.')
+    
+            local Toggle = {
+                Value = Info.Default or false;
+                Type = 'Toggle';
+    
+                Callback = Info.Callback or function(Value) end;
+                Addons = {},
+                Risky = Info.Risky,
+            };
+
+            local MainToggle = Library:Create('TextButton', {
+                Name = "Toggle";
+                Parent = Tab;
+                BackgroundTransparency = 0.5;
+                Position = UDim2.new(0.215625003, 0, 0.446271926, 0);
+                Size = UDim2.new(0, 363, 0, 42);
+                AutoButtonColor = false;
+                Font = Enum.Font.SourceSans;
+                Text = "";
+                TextColor3 = Color3.fromRGB(0, 0, 0);
+                TextSize = 14
+            });
+
+            local ToggleCorner = Library:Create('UICorner', {
+                CornerRadius = UDim.new(0, 5);
+                Name = "ToggleCorner";
+                Parent = MainToggle
+            });
+
+            local ToggleTitle = Library:Create('TextLabel', {
+                Name = "ToggleTitle";
+                Parent = MainToggle;
+                BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                BackgroundTransparency = 1.000;
+                Position = UDim2.new(0.0358126722, 0, 0, 0);
+                Size = UDim2.new(0.95, 0, 0, 40);
+                Font = Enum.Font.GothamBlack;
+                Text = Info.Text or "Example Text";
+                TextColor3 = Color3.fromRGB(255, 255, 255);
+                TextSize = 14;
+                TextXAlignment = Enum.TextXAlignment.Left
+            });
+
+            local FrameToggle1 = Library:Create('Frame', {
+                Name = "FrameToggle1";
+                Parent = MainToggle;
+                BackgroundTransparency = 0.5;
+                BackgroundColor3 = Color3.fromRGB(50, 50, 50);
+                Position = UDim2.new(0.859504104, 0, 0.285714298, 0);
+                Size = UDim2.new(0, 37, 0, 18)
+            });
+
+            local FrameToggle1Corner = Library:Create('UICorner', {
+                Name = "FrameToggle1Corner";
+                Parent = FrameToggle1
+            });
+
+            local FrameToggle2 = Library:Create('Frame', {
+                Name = "FrameToggle2";
+                Parent = FrameToggle1;
+                BackgroundTransparency = 0.5;
+                BackgroundColor3 = Color3.fromRGB(34, 34, 34);
+                Position = UDim2.new(0.0489999987, 0, 0.0930000022, 0);
+                Size = UDim2.new(0, 33, 0, 14)
+            });
+
+            local FrameToggle2Corner = Library:Create('UICorner', {
+                Name = "FrameToggle2Corner";
+                Parent = FrameToggle2
+            });
+
+            local FrameToggle3 = Library:Create('Frame', {
+                Name = "FrameToggle3";
+                Parent = FrameToggle1;
+                BackgroundColor3 = ThemeColor;
+                BackgroundTransparency = 0.5;
+                BackgroundTransparency = 1.000;
+                Size = UDim2.new(0, 37, 0, 18)
+            });
+
+            local FrameToggle3Corner = Library:Create('UICorner', {
+                Name = "FrameToggle3Corner";
+                Parent = FrameToggle3
+            });
+
+            local FrameToggleCircle = Library:Create('Frame', {
+                Name = "FrameToggleCircle";
+                Parent = FrameToggle1;
+                BackgroundTransparency = 0;
+                BackgroundColor3 = Color3.fromRGB(255, 0, 0);
+                Position = UDim2.new(0.127000004, 0, 0.222000003, 0);
+                Size = UDim2.new(0, 10, 0, 10)
+            });
+
+            local FrameToggleCircleCorner = Library:Create('UICorner', {
+                Name = "FrameToggleCircleCorner";
+                Parent = FrameToggleCircle
+            });
+    
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    FrameToggle1.BackgroundColor3 = ThemeColor
+                    FrameToggle2.BackgroundColor3 = ThemeColor
+                    FrameToggle3.BackgroundColor3 = ThemeColor
+                    MainToggle.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+    
+            function Toggle:OnChanged(Func)
+                Toggle.Changed = Func;
+                Func(Toggle.Value);
+            end;
+    
+            function Toggle:SetValue(Bool)
+                Bool = (not not Bool);
+
+                if Bool then
+                    MainToggle.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+                    FrameToggleCircle.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+                    FrameToggleCircle.Position = UDim2.new(0.587, 0, 0.222000003, 0)
+                else
+                    MainToggle.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+                    FrameToggleCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                    FrameToggleCircle.Position = UDim2.new(0.127000004, 0, 0.222000003, 0)
+                end
+
+                Toggle.Value = Bool;
+
+                for _, Addon in next, Toggle.Addons do
+                    if Addon.Type == 'KeyPicker' and Addon.SyncToggleState then
+                        Addon.Toggled = Bool
+                        Addon:Update()
+                    end
+                end
+    
+                Library:SafeCallback(Toggle.Callback, Toggle.Value);
+                Library:SafeCallback(Toggle.Changed, Toggle.Value);
+            end;
+    
+            Library.Connections[#Library.Connections + 1] = MainToggle.InputBegan:Connect(function(Input)
+                if (Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch) then
+                    Toggle:SetValue(not Toggle.Value)
+                    Library:AttemptSave();
+                end;
+            end);
+
+            if Info.Default then
+                Toggle:SetValue(true)
+            end
+    
+            Toggle.TextLabel = ToggleLabel;
+            Toggle.Container = Tab;
+            setmetatable(Toggle, BaseAddons);
+    
+            Toggles[Idx] = Toggle;
+    
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Toggle;
+        end;
+        
+        function Container:KeybindToggle(Idx, Info)
+            local Toggled = default or false
+            local SelectingKey = false
+
+            local assignedKey = Info.KeyDefault or ""
+
+            local Toggle = {
+                Value = Info.Default or false;
+                Type = 'Toggle';
+    
+                Callback = Info.Callback or function(Value) end;
+                Addons = {},
+                Risky = Info.Risky,
+            };
+
+            local Textbox = {
+                Value = '';
+                Default = Info.KeySave or '';
+                Type = 'Input';
+                Callback = Info.Callback or function(Value) end;
+            };
+
+            local MainToggle = Library:Create('TextButton', {
+                Name = "Toggle";
+                Parent = Tab;
+                BackgroundTransparency = 0.5;
+                Position = UDim2.new(0.215625003, 0, 0.446271926, 0);
+                Size = UDim2.new(0, 363, 0, 42);
+                AutoButtonColor = false;
+                Font = Enum.Font.SourceSans;
+                Text = "";
+                TextColor3 = Color3.fromRGB(0, 0, 0);
+                TextSize = 14
+            });
+
+            local ToggleCorner = Library:Create('UICorner', {
+                CornerRadius = UDim.new(0, 5);
+                Name = "ToggleCorner";
+                Parent = MainToggle
+            });
+
+            local ToggleTitle = Library:Create('TextLabel', {
+                Name = "ToggleTitle";
+                Parent = MainToggle;
+                BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                BackgroundTransparency = 1.000;
+                Position = UDim2.new(0.0358126722, 0, 0, 0);
+                Size = UDim2.new(0.95, 0, 0, 40);
+                Font = Enum.Font.GothamBlack;
+                Text = Info.Text or "Example Text";
+                TextColor3 = Color3.fromRGB(255, 255, 255);
+                TextSize = 14;
+                TextXAlignment = Enum.TextXAlignment.Left
+            });
+
+            local FrameToggle1 = Library:Create('Frame', {
+                Name = "FrameToggle1";
+                Parent = MainToggle;
+                BackgroundTransparency = 0.5;
+                BackgroundColor3 = Color3.fromRGB(50, 50, 50);
+                Position = UDim2.new(0.859504104, 0, 0.285714298, 0);
+                Size = UDim2.new(0, 37, 0, 18)
+            });
+
+            local FrameToggle1Corner = Library:Create('UICorner', {
+                Name = "FrameToggle1Corner";
+                Parent = FrameToggle1
+            });
+
+            local FrameToggle2 = Library:Create('Frame', {
+                Name = "FrameToggle2";
+                Parent = FrameToggle1;
+                BackgroundTransparency = 0.5;
+                BackgroundColor3 = Color3.fromRGB(34, 34, 34);
+                Position = UDim2.new(0.0489999987, 0, 0.0930000022, 0);
+                Size = UDim2.new(0, 33, 0, 14)
+            });
+
+            local FrameToggle2Corner = Library:Create('UICorner', {
+                Name = "FrameToggle2Corner";
+                Parent = FrameToggle2
+            });
+
+            local FrameToggle3 = Library:Create('Frame', {
+                Name = "FrameToggle3";
+                Parent = FrameToggle1;
+                BackgroundColor3 = ThemeColor;
+                BackgroundTransparency = 0.5;
+                Size = UDim2.new(0, 37, 0, 18)
+            });
+
+            local FrameToggle3Corner = Library:Create('UICorner', {
+                Name = "FrameToggle3Corner";
+                Parent = FrameToggle3
+            });
+
+            local FrameToggleCircle = Library:Create('Frame', {
+                Name = "FrameToggleCircle";
+                Parent = FrameToggle1;
+                BackgroundTransparency = 0.5;
+                BackgroundColor3 = Color3.fromRGB(255, 0, 0);
+                BackgroundTransparency = 0;
+                Position = UDim2.new(0.127000004, 0, 0.222000003, 0);
+                Size = UDim2.new(0, 10, 0, 10)
+            });
+
+            local FrameToggleCircleCorner = Library:Create('UICorner', {
+                Name = "FrameToggleCircleCorner";
+                Parent = FrameToggleCircle
+            });
+
+            local KeybindLabel = Instance.new("TextButton")
+
+            KeybindLabel.Name = "KeybindLabel"
+            KeybindLabel.Parent = MainToggle
+            KeybindLabel.BackgroundTransparency = 1
+            KeybindLabel.Position = UDim2.new(0.65, 0, 0, -1)
+            KeybindLabel.Size = UDim2.new(0, 50, 0, 42)
+            KeybindLabel.Font = Enum.Font.Gotham
+            KeybindLabel.Text = assignedKey == "" and "Enter Key" or assignedKey
+            KeybindLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+            KeybindLabel.TextSize = 14
+            KeybindLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    MainToggle.BackgroundColor3 = ThemeColor
+                    FrameToggle3.BackgroundColor3 = ThemeColor
+                    FrameToggle1.BackgroundColor3 = ThemeColor
+                    FrameToggle2.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+
+            function Toggle:OnChanged(Func)
+                Toggle.Changed = Func;
+                Func(Toggle.Value);
+            end;
+
+            function Toggle:SetValue(Bool)
+                Bool = (not not Bool);
+
+                if Bool then
+                    MainToggle.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+                    FrameToggleCircle.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+                    FrameToggleCircle.Position = UDim2.new(0.587, 0, 0.222000003, 0)
+                else
+                    MainToggle.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+                    FrameToggleCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                    FrameToggleCircle.Position = UDim2.new(0.127000004, 0, 0.222000003, 0)
+                end
+
+                Toggle.Value = Bool;
+
+                for _, Addon in next, Toggle.Addons do
+                    if Addon.Type == 'KeyPicker' and Addon.SyncToggleState then
+                        Addon.Toggled = Bool
+                        Addon:Update()
+                    end
+                end
+    
+                Library:SafeCallback(Toggle.Callback, Toggle.Value);
+                Library:SafeCallback(Toggle.Changed, Toggle.Value);
+            end;
+
+
+            KeybindLabel.MouseButton1Click:Connect(function()
+                if SelectingKey then return end
+                SelectingKey = true
+                KeybindLabel.Text = "Press Key"
+                local connection
+                connection = InputService.InputBegan:Connect(function(input)
+                    if not table.find(blacklistedKeybinds, input.KeyCode) and input.UserInputType == Enum.UserInputType.Keyboard then
+                        assignedKey = input.KeyCode
+                        Textbox.Value = assignedKey.Name
+                        KeybindLabel.Text = assignedKey.Name
+                        SelectingKey = false
+                        connection:Disconnect()
+                    end
+                    Library:AttemptSave()
+                end)
+            end)
+
+            function Textbox:RemoveText()
+                KeybindLabel.Text = "Enter Key"
+                Textbox.Value = ""
+                assignedKey = nil
+
+                Library:SafeCallback(Textbox.Callback, Textbox.Value);
+                Library:SafeCallback(Textbox.Changed, Textbox.Value);
+            end
+
+            function Textbox:SetValue(key)
+                KeybindLabel.Text = key == "" and "Enter Key" or key
+                if key ~= "" then
+                    assignedKey = Enum.KeyCode[key]
+                else
+                    assignedKey = nil
+                end
+                Textbox.Value = key
+                Library:SafeCallback(Textbox.Callback, Textbox.Value);
+                Library:SafeCallback(Textbox.Changed, Textbox.Value);
+            end
+            
+            Library.Connections[#Library.Connections + 1] = InputService.InputBegan:Connect(function(input, gameProcessed)
+                if gameProcessed or SelectingKey then return end
+                if input.KeyCode == assignedKey then
+                    Toggle:SetValue(not Toggle.Value)
+                end
+                Library:AttemptSave()
+            end)
+
+            Library.Connections[#Library.Connections + 1] = MainToggle.MouseButton1Click:Connect(function()
+                if not SelectingKey then
+                    Toggle:SetValue(not Toggle.Value)
+                end
+                Library:AttemptSave()
+            end)
+
+            if Info.Default then
+                Toggle:SetValue(true)
+            end
+
+            Toggles[Idx] = Toggle
+            Options[Idx] = Textbox
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Toggle
+        end
+
+        function Container:NewSlider(Idx, Info)
+
+            assert(Info.Default, 'AddSlider: Missing default value.');
+            assert(Info.Text, 'AddSlider: Missing slider text.');
+            assert(Info.Min, 'AddSlider: Missing minimum value.');
+            assert(Info.Max, 'AddSlider: Missing maximum value.');
+
+            local MainSlider = Instance.new("TextButton")
+            local SliderLabel = Instance.new("TextLabel")
+            local SliderCorner = Instance.new("UICorner")
+            local Sliding = Instance.new("Frame")
+            local SlidingCorner = Instance.new("UICorner")
+            local Circle = Instance.new("Frame")
+            local HideColor = Instance.new("Frame")
+            local HideColorCorner = Instance.new("UICorner")
+            local CircleCorner = Instance.new("UICorner")
+            local Progress = Instance.new("Frame")
+            local ProgressCorner = Instance.new("UICorner")
+            local CircleStroke = Instance.new("UIStroke")
+            local ValueLabel = Instance.new("TextLabel")
+            
+            MainSlider.Name = "MainSlider"
+            MainSlider.Parent = Tab
+            MainSlider.BackgroundTransparency = 0.5
+            MainSlider.BorderSizePixel = 0
+            MainSlider.Position = UDim2.new(0.286780387, 0, 0, 0)
+            MainSlider.Size = UDim2.new(0, 363, 0, 40)
+            MainSlider.AutoButtonColor = false
+            MainSlider.Font = Enum.Font.SourceSans
+            MainSlider.Text = ""
+            MainSlider.TextColor3 = Color3.fromRGB(0, 0, 0)
+            MainSlider.TextSize = 14.000
+
+            SliderLabel.Name = "SliderLabel"
+            SliderLabel.Parent = MainSlider
+            SliderLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            SliderLabel.BackgroundTransparency = 1.000
+            SliderLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+            SliderLabel.BorderSizePixel = 0
+            SliderLabel.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            SliderLabel.Size = UDim2.new(0.95, 0, 0, 40)
+            SliderLabel.Font = Enum.Font.GothamBlack
+            SliderLabel.Text = Info.Text or "Text Example"
+            SliderLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+            SliderLabel.TextSize = 14
+            SliderLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+            SliderCorner.CornerRadius = UDim.new(0, 5)
+            SliderCorner.Name = "SliderCorner"
+            SliderCorner.Parent = MainSlider
+
+            Sliding.Name = "Sliding"
+            Sliding.Parent = MainSlider
+            Sliding.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+            Sliding.BorderSizePixel = 0
+            Sliding.Position = UDim2.new(0.58, 0, 0.421052635, 0)
+            Sliding.Size = UDim2.new(0, 140, 0, 5)
+
+            SlidingCorner.CornerRadius = UDim.new(0, 15)
+            SlidingCorner.Name = "SlidingCorner"
+            SlidingCorner.Parent = Sliding
+
+            Circle.Name = "Circle"
+            Circle.Parent = Progress
+            Circle.AnchorPoint = Vector2.new(0, 0.5)
+            Circle.BackgroundColor3 = Color3.fromRGB(0, 123, 255)
+            Circle.BorderSizePixel = 0
+            Circle.Position = UDim2.new(1, 0, 0.5, 0)
+            Circle.Size = UDim2.new(0, 12, 0, 12)
+            Circle.ZIndex = 2
+
+            CircleStroke.Parent = Circle
+            CircleStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+            CircleStroke.Thickness = 2
+            CircleStroke.Color = Color3.fromRGB(43,43,43)
+
+            ValueLabel.Name = "ValueLabel"
+            ValueLabel.Parent = Circle
+            ValueLabel.AnchorPoint = Vector2.new(0.5, 0)
+            ValueLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ValueLabel.BackgroundTransparency = 1.000
+            ValueLabel.BorderSizePixel = 0
+            ValueLabel.Position = UDim2.new(0.5, 0, -1.49128079, 0)
+            ValueLabel.Size = UDim2.new(0, 25, 0, 18)
+            ValueLabel.Font = Enum.Font.GothamSemibold
+            ValueLabel.Text = (Info.Rounding and string.format("%.1f", tostring(Info.Default))) or (math.floor(Info.Default))
+            ValueLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ValueLabel.TextSize = 14.000
+
+            HideColor.Name = "HideColor"
+            HideColor.Parent = Circle
+            HideColor.AnchorPoint = Vector2.new(0.5, 0.5)
+            HideColor.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+            HideColor.BorderSizePixel = 0
+            HideColor.Position = UDim2.new(0.5, 0, 0.5, 0)
+            HideColor.Size = UDim2.new(1, 1, 1, 1)
+            HideColor.ZIndex = 2
+
+            HideColorCorner.CornerRadius = UDim.new(0, 100)
+            HideColorCorner.Name = "HideColorCorner"
+            HideColorCorner.Parent = HideColor
+
+            CircleCorner.CornerRadius = UDim.new(0, 100)
+            CircleCorner.Name = "CircleCorner"
+            CircleCorner.Parent = Circle
+
+            Progress.Name = "Progress"
+            Progress.Parent = Sliding
+            Progress.BackgroundColor3 = Color3.fromRGB(0, 123, 255)
+            Progress.BorderSizePixel = 0
+            Progress.Size = UDim2.new(0.5, 0, 1, 0)
+
+            ProgressCorner.CornerRadius = UDim.new(0, 15)
+            ProgressCorner.Name = "ProgressCorner"
+            ProgressCorner.Parent = Progress
+
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    Circle.BackgroundColor3 = ThemeColor
+                    Progress.BackgroundColor3 = ThemeColor
+                    MainSlider.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+    
+            local Slider = {
+                Value = Info.Default;
+                Min = Info.Min;
+                Max = Info.Max;
+                Rounding = Info.Rounding;
+                MaxSize = 232;
+                Type = 'Slider';
+                Callback = Info.Callback or function(Value) end;
+            };
+
+            local function UpdateSlider(val)
+                local percent = (Mouse.X - Progress.AbsolutePosition.X) / Progress.AbsoluteSize.X
+            
+                if val then
+                    percent = (val - Info.Min) / (Info.Max - Info.Min)
+                end
+            
+                percent = math.clamp(percent, 0, 1)
+            
+                Progress.Size = UDim2.new(percent, 0, 1, 0)
+            end
+
+            UpdateSlider(Info.Default)
+
+            local IsSliding, Dragging = false, false
+            local RealValue = Info.Value
+
+            local function DragSlider(Pressed)
+                if not Dragging then return end
+                IsSliding = true
+                local pos = UDim2.new(math.clamp((Pressed.Position.X - Sliding.AbsolutePosition.X) / Sliding.AbsoluteSize.X, 0, 1), 0, 1, 0)
+                local size = UDim2.new(math.clamp((Pressed.Position.X - Sliding.AbsolutePosition.X) / Sliding.AbsoluteSize.X, 0, 1), 0, 1, 0)
+                Progress.Size = size
+                RealValue = (((pos.X.Scale * Info.Max) / Info.Max) * (Info.Max - Info.Min) + Info.Min)
+                Slider.Value = (Info.Precise and string.format("%.1f", tostring(RealValue))) or (math.floor(RealValue))
+                ValueLabel.Text = tostring(Slider.Value)
+                Library:SafeCallback(Slider.Callback, Slider.Value)
+                Library:SafeCallback(Slider.Changed, Slider.Value)
+            end
+
+            Library.Connections[#Library.Connections + 1] = MainSlider.InputBegan:Connect(function(Pressed)
+                if Pressed.UserInputType == Enum.UserInputType.MouseButton1 or Pressed.UserInputType == Enum.UserInputType.Touch then
+                    Dragging = true
+                    IsSliding = false
+                    DragSlider(Pressed)
+                    Library:AttemptSave();
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = MainSlider.InputEnded:Connect(function(Pressed)
+                if Pressed.UserInputType == Enum.UserInputType.MouseButton1 or Pressed.UserInputType == Enum.UserInputType.Touch then
+                    Dragging = false
+                    IsSliding = false
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = InputService.InputChanged:Connect(function(Pressed)
+                if Dragging and (Pressed.UserInputType == Enum.UserInputType.MouseMovement or Pressed.UserInputType == Enum.UserInputType.Touch) then
+                    DragSlider(Pressed)
+                    Library:AttemptSave();
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = MainSlider.MouseEnter:Connect(function()
+                HideColor.Size = UDim2.new(0, 0, 0, 0)
+            end)
+
+            Library.Connections[#Library.Connections + 1] = MainSlider.MouseLeave:Connect(function()
+                if not Dragging then
+                    HideColor.Size = UDim2.new(1, 1, 1, 1)
+                end
+            end)
+
+            function Slider:OnChanged(Func)
+                Slider.Changed = Func;
+                Func(Slider.Value);
+            end;
+
+            function Slider:SetValue(Str)
+                local Num = tonumber(Str);
+    
+                if (not Num) then
+                    return;
+                end;
+    
+                Num = math.clamp(Num, Slider.Min, Slider.Max);
+    
+                Slider.Value = Num;
+                ValueLabel.Text = tostring(Slider.Value)
+                UpdateSlider(Slider.Value)
+    
+                Library:SafeCallback(Slider.Callback, Slider.Value);
+                Library:SafeCallback(Slider.Changed, Slider.Value);
+            end;
+
+            Options[Idx] = Slider;
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Slider
+        end
+
+        function Container:MakeDropdown(Idx, Info)
+            if Info.SpecialType == 'Player' then
+                Info.Values = GetPlayersString();
+                Info.AllowNull = true;
+            elseif Info.SpecialType == 'Team' then
+                Info.Values = GetTeamsString();
+                Info.AllowNull = true;
+            end;
+    
+            assert(Info.Values, 'AddDropdown: Missing dropdown value list.');
+            assert(Info.AllowNull or Info.Default, 'AddDropdown: Missing default value. Pass `AllowNull` as true if this was intentional.')
+    
+            if (not Info.Text) then
+                Info.Compact = true;
+            end;
+    
+            local Dropdown = {
+                Values = Info.Values;
+                Value = Info.Multi and {};
+                Multi = Info.Multi;
+                Type = 'Dropdown';
+                SpecialType = Info.SpecialType; -- can be either 'Player' or 'Team'
+                Callback = Info.Callback or function(Value) end;
+            };
+    
+            local RelativeOffset = 0;
+
+            for _, Element in next, Tab:GetChildren() do
+                if not Element:IsA('UIListLayout') then
+                    RelativeOffset = RelativeOffset + Element.Size.Y.Offset;
+                end;
+            end;
+
+            local MainDropdown = Library:Create('Frame', {
+                Parent = Tab;
+                BackgroundTransparency = 0.5;
+                ClipsDescendants = true;
+                Position = UDim2.new(-0.541071415, 0, -0.532915354, 0);
+                Size = UDim2.new(0, 363, 0, 42)
+            })
+
+            local DropdownButton = Library:Create("TextButton", {
+                Parent = MainDropdown;
+                BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                BackgroundTransparency = 1.000;
+                Size = UDim2.new(0, 363, 0, 42);
+                Font = Enum.Font.SourceSans;
+                Text = "";
+                TextColor3 = Color3.fromRGB(0, 0, 0);
+                TextSize = 14.000
+            })
+
+            local DropdownCorner = Library:Create('UICorner', {
+                CornerRadius = UDim.new(0, 5);
+                Parent = MainDropdown
+            })
+
+            local DropdownTitle = Library:Create('TextLabel', {
+                Name = "ButtonTitle";
+                Parent = MainDropdown;
+                BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                BackgroundTransparency = 1.000;
+                Position = UDim2.new(0.0358126722, 0, 0, 0);
+                Size = UDim2.new(0, 187, 0, 42);
+                Font = Enum.Font.GothamBlack;
+                Text = Info.Text or "Unknown Text";
+                TextColor3 = Color3.fromRGB(255, 255, 255);
+                TextSize = 14;
+                TextXAlignment = Enum.TextXAlignment.Left
+            })
+
+            local DropdownArrow = Library:Create('ImageLabel', {
+                Parent = DropdownTitle;
+                BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                BackgroundTransparency = 1.000;
+                Position = UDim2.new(1.65240645, 0, 0.190476194, 0);
+                Size = UDim2.new(0, 26, 0, 26);
+                Image = "http://www.roblox.com/asset/?id=6034818375"
+            });
+    
+            local MAX_DROPDOWN_ITEMS = 8;
+
+            Dropdown.Flag = false
+            Dropdown.Frame = 0
+
+            DropdownButton.MouseButton1Click:Connect(function()
+                if Dropdown.Flag == false then
+                    MainDropdown.Size = UDim2.new(0, 363, 0, 130)
+                    DropdownArrow.Rotation = 270
+                    Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                else
+                    MainDropdown.Size = UDim2.new(0, 363, 0, 42)
+                    DropdownArrow.Rotation = 0
+                    Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                end
+                Dropdown.Flag = not Dropdown.Flag
+            end)
+
+            local Scrolling = Library:Create('ScrollingFrame', {
+                Parent = DropdownTitle;
+                Active = true;
+                BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                BackgroundTransparency = 1.000;
+                BorderSizePixel = 0;
+                Position = UDim2.new(-0.00400000019, 0, 1.04999995, 0);
+                Size = UDim2.new(0, 342, 0, 0);
+                CanvasSize = UDim2.new(0, 0, 0, 0);
+                ScrollBarThickness = 3
+            });
+
+            local Layout = Library:Create("UIListLayout", {
+                Parent = Scrolling;
+                SortOrder = Enum.SortOrder.LayoutOrder
+            })
+    
+            function Dropdown:Display()
+                local Values = Dropdown.Values;
+                local Str = '';
+    
+                if Info.Multi then
+                    for Idx, Value in next, Values do
+                        if Dropdown.Value[Value] then
+                            Str = Str .. Value .. ', ';
+                        end;
+                    end;
+    
+                    Str = Str:sub(1, #Str - 2);
+                else
+                    Str = Dropdown.Value or '';
+                end;
+    
+                --ItemList.Text = (Str == '' and '--' or Str);
+            end;
+    
+            function Dropdown:GetActiveValues()
+                if Info.Multi then
+                    local T = {};
+
+                    if type(Dropdown.Value) == "table" then
+                        for Value, Bool in next, Dropdown.Value do
+                            table.insert(T, Value);
+                        end;
+                    else
+                        for Value, Bool in next, {Dropdown.Value} do
+                            table.insert(T, Value);
+                        end;
+                    end
+    
+                    return T;
+                else
+                    return Dropdown.Value and 1 or 0;
+                end;
+            end;
+
+            Dropdown.Buttons = {}
+            Dropdown.Selected = {}
+    
+            function Dropdown:BuildDropdownList()
+                local Values = Dropdown.Values;
+                local Buttons = {};
+    
+                for _, Element in next, Scrolling:GetChildren() do
+                    if not Element:IsA('UIListLayout') then
+                        Element:Destroy();
+                    end;
+                end;
+    
+                local Count = 0;
+    
+                for Idx, Value in next, Values do
+                    local Table = {};
+
+                    Count += 1;
+
+                    if Count <= 3 then
+                        Dropdown.Frame = Dropdown.Frame + 20
+                        Scrolling.Size = UDim2.new(0, 342, 0, 80)
+                        Scrolling.CanvasSize = UDim2.new(0, 0, 0, Layout.AbsoluteContentSize.Y)
+                    end
+
+                    Scrolling.CanvasSize = UDim2.new(0, 0, 0, Layout.AbsoluteContentSize.Y + 25)
+    
+                    local Button = Library:Create('TextButton', {
+                        Parent = Scrolling;
+                        ClipsDescendants = true;
+                        Size = UDim2.new(0, 335, 0, 25);
+                        AutoButtonColor = false;
+                        BackgroundColor3 = ThemeColor or Color3.fromRGB(0, 0, 255);
+                        Font = Enum.Font.SourceSans;
+                        --AutomaticSize = Enum.AutomaticSize.Y;
+                        Text = Value;
+                        TextColor3 = Color3.fromRGB(255, 255, 255);
+                        TextSize = 15.000;
+                        LayoutOrder = Idx
+                    });
+
+                    local ButtonCorner = Library:Create('UICorner', {
+                        CornerRadius = UDim.new(0, 4);
+                        Parent = Button
+                    });
+
+                    task.spawn(function()
+                        while ScreenGui.Parent do
+                            MainDropdown.BackgroundColor3 = ThemeColor
+                            Button.BackgroundColor3 = ThemeColor
+                            --Button.BackgroundTransparency = 0.5
+                            task.wait()
+                        end
+                    end)
+
+                    table.insert(Dropdown.Buttons, Button)
+    
+                    local Selected, DefaultSelected;
+
+                    Dropdown.StoredValues = {}
+
+                    function Table:UpdateButton()
+                        if Info.Multi then
+                            if #Dropdown.StoredValues >= 2 then
+                                Selected = table.find(Dropdown.StoredValues, Value) ~= nil
+                            else
+                                Selected = Dropdown.Value == Value
+                            end
+                        else
+                            Selected = Dropdown.Value == Value
+                        end
+
+                        if Selected then
+                            if Info.Multi and not Dropdown.Selected[Value] then
+                                --Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                                Button.BackgroundTransparency = 0.6
+                                Dropdown.Selected[Value] = true
+                            else
+                                --Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                                Button.BackgroundTransparency = 0.6
+                            end
+                        else
+                            Button.BackgroundColor3 = ThemeColor or Color3.fromRGB(255, 0, 0)
+                            Button.BackgroundTransparency = 0
+                            if Dropdown.Selected[Value] then
+                                Dropdown.Selected[Value] = nil
+                            end
+                        end
+                    end
+
+                    if Info.Default then
+                        for _, v in next, Dropdown.Buttons do
+                            if v.Text == Info.Default then
+                                --v.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                                DefaultSelected = v
+                                v.BackgroundTransparency = 0.6
+                                table.insert(Dropdown.StoredValues, Info.Default)
+                                Dropdown.Value = Info.Default
+                                break
+                            end
+                        end
+                    end
+
+                    --[[
+                    Library.Connections[#Library.Connections + 1] = Button.MouseEnter:Connect(function()
+                        if not Selected and Button ~= DefaultSelected then
+                            --Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                            Button.BackgroundTransparency = 0.6
+                        end
+                    end)
+
+                    Library.Connections[#Library.Connections + 1] = Button.MouseLeave:Connect(function()
+                        if not Selected and Button ~= DefaultSelected then
+                            --Button.BackgroundColor3 = ThemeColor or Color3.fromRGB(255, 255, 255)
+                            Button.BackgroundTransparency = 0
+                        end
+                    end)]]--
+
+                    Library.Connections[#Library.Connections + 1] = Button.MouseButton1Click:Connect(function()
+                        local Try = not Selected
+
+                        if Dropdown.Value == Value and Info.Default == Value then
+                            Dropdown.Value = nil
+
+                            local index = table.find(Dropdown.StoredValues, Value)
+                            if index then
+                                table.remove(Dropdown.StoredValues, index)
+                            end
+                        
+                            for _, OtherButton in next, Buttons do
+                                OtherButton:UpdateButton()
+                            end
+                        
+                            Table:UpdateButton()
+                            Library:SafeCallback(Dropdown.Callback, Dropdown.Value)
+                            Library:SafeCallback(Dropdown.Changed, Dropdown.Value)
+                            Buttons[Button] = Table
+                            return
+                        end
+
+                        if Dropdown:GetActiveValues() == 1 and not Try and not Info.AllowNull then
+                            return
+                        end
+
+                        if Info.Multi then
+                            if Try then
+                                table.insert(Dropdown.StoredValues, Value)
+                            else
+                                local index = table.find(Dropdown.StoredValues, Value)
+                                if index then
+                                    table.remove(Dropdown.StoredValues, index)
+                                end
+                            end
+
+                            if #Dropdown.StoredValues == 1 then
+                                Dropdown.Value = Dropdown.StoredValues[1]
+                            elseif #Dropdown.StoredValues > 1 then
+                                Dropdown.Value = Dropdown.StoredValues
+                            else
+                                Dropdown.Value = nil
+                            end
+                        else
+                            if Try then
+                                Dropdown.Value = Value
+                            else
+                                Dropdown.Value = nil
+                            end
+
+                            for _, OtherButton in next, Buttons do
+                                OtherButton:UpdateButton()
+                            end
+                        end
+
+                        Table:UpdateButton()
+                        Library:SafeCallback(Dropdown.Callback, Dropdown.Value)
+                        Library:SafeCallback(Dropdown.Changed, Dropdown.Value)
+                        Buttons[Button] = Table
+                        
+                        Library:AttemptSave()
+                    end)
+                end
+            end
+
+            function Dropdown:RemoveDropdown()
+                for i,v in next, Dropdown.Buttons do
+                    v:Destroy()
+                end
+                table.clear(Dropdown.Buttons)
+                DropdownArrow.Rotation = 0
+                MainDropdown.Size = UDim2.new(0, 363, 0, 42)
+                Dropdown.Flag = false
+                Dropdown.Frame = 0
+                Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            end
+    
+            function Dropdown:SetValues(NewValues)
+                --if NewValues then
+                    Dropdown.Values = NewValues;
+                --end;
+    
+                Dropdown:BuildDropdownList();
+            end;
+    
+            function Dropdown:OpenDropdown()
+                --ListOuter.Visible = true;
+                --Library.OpenedFrames[ListOuter] = true;
+                --DropdownArrow.Rotation = 180;
+            end;
+    
+            function Dropdown:CloseDropdown()
+                --ListOuter.Visible = false;
+                --Library.OpenedFrames[ListOuter] = nil;
+                --DropdownArrow.Rotation = 0;
+            end;
+    
+            function Dropdown:OnChanged(Func)
+                Dropdown.Changed = Func;
+                Func(Dropdown.Value);
+            end;
+    
+            function Dropdown:SetValue(Val)
+                if not Val then
+                    Dropdown.Value = nil
+                --[[elseif Dropdown.Multi and Val then
+                    local nTable = {};
+    
+                    for Value, Bool in next, Val do
+                        --if table.find(Dropdown.Values, Value) then
+                            nTable[Value] = true
+                        --end;
+                    end;
+    
+                    Dropdown.Value = nTable;]]--
+                elseif Val then
+                    Dropdown.Value = Val;
+                end;
+    
+                Dropdown:BuildDropdownList();
+    
+                Library:SafeCallback(Dropdown.Callback, Dropdown.Value);
+                Library:SafeCallback(Dropdown.Changed, Dropdown.Value);
+            end;
+        
+            --table.insert(Dropdown.Values, Info.Default)
+            --if Info.Multi then
+                --Dropdown.Value = {Info.Default}
+            --else
+            Dropdown.Value = Info.Default
+            --end
+
+            Library:SafeCallback(Dropdown.Callback, Dropdown.Value);
+            Library:SafeCallback(Dropdown.Changed, Dropdown.Value);
+
+            Dropdown:BuildDropdownList();
+            
+            --[[if type(Info.Default) == 'string' then
+                local Idx = table.find(Dropdown.Values, Info.Default)
+                if Idx then
+                    table.insert(Defaults, Idx)
+                end
+            elseif type(Info.Default) == 'table' then
+                for _, Value in next, Info.Default do
+                    local Idx = table.find(Dropdown.Values, Value)
+                    if Idx then
+                        table.insert(Defaults, Idx)
+                    end
+                end
+            elseif type(Info.Default) == 'number' and Dropdown.Values[Info.Default] ~= nil then
+                table.insert(Defaults, Info.Default)
+            end]]--
+    
+            Options[Idx] = Dropdown;
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Dropdown;
+        end;
+
+        function Container:Colorpicker(Idx, Info)
+
+            assert(Info.Default, 'AddColorPicker: Missing default value.');
+
+            local ColorPickerToggled = false
+            local OldToggleColor = Color3.fromRGB(0, 0, 0)
+            local OldColor = Color3.fromRGB(0, 0, 0)
+            local OldColorSelectionPosition = nil
+            local OldHueSelectionPosition = nil
+            local ColorH, ColorS, ColorV = 1, 1, 1
+            local RainbowColorPicker = false
+            local ColorPickerInput = nil
+            local ColorInput = nil
+            local HueInput = nil
+
+            local Colorpicker = Instance.new("Frame")
+            local ColorpickerCorner = Instance.new("UICorner")
+            local ColorpickerTitle = Instance.new("TextLabel")
+            local BoxColor = Instance.new("Frame")
+            local BoxColorCorner = Instance.new("UICorner")
+            local ConfirmBtn = Instance.new("TextButton")
+            local ConfirmBtnCorner = Instance.new("UICorner")
+            local ConfirmBtnTitle = Instance.new("TextLabel")
+            local ColorpickerBtn = Instance.new("TextButton")
+            local RainbowToggle = Instance.new("TextButton")
+            local RainbowToggleCorner = Instance.new("UICorner")
+            local RainbowToggleTitle = Instance.new("TextLabel")
+            local FrameRainbowToggle1 = Instance.new("Frame")
+            local FrameRainbowToggle1Corner = Instance.new("UICorner")
+            local FrameRainbowToggle2 = Instance.new("Frame")
+            local FrameRainbowToggle2_2 = Instance.new("UICorner")
+            local FrameRainbowToggle3 = Instance.new("Frame")
+            local FrameToggle3 = Instance.new("UICorner")
+            local FrameRainbowToggleCircle = Instance.new("Frame")
+            local FrameRainbowToggleCircleCorner = Instance.new("UICorner")
+            local Color = Instance.new("ImageLabel")
+            local ColorCorner = Instance.new("UICorner")
+            local ColorSelection = Instance.new("ImageLabel")
+            local Hue = Instance.new("ImageLabel")
+            local HueCorner = Instance.new("UICorner")
+            local HueGradient = Instance.new("UIGradient")
+            local HueSelection = Instance.new("ImageLabel")
+
+            Colorpicker.Name = "Colorpicker"
+            Colorpicker.Parent = Tab
+            Colorpicker.BackgroundTransparency = 0.5
+            Colorpicker.ClipsDescendants = true
+            Colorpicker.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
+            Colorpicker.Size = UDim2.new(0, 363, 0, 42)
+
+            ColorpickerCorner.CornerRadius = UDim.new(0, 5)
+            ColorpickerCorner.Name = "ColorpickerCorner"
+            ColorpickerCorner.Parent = Colorpicker
+
+            ColorpickerTitle.Name = "ColorpickerTitle"
+            ColorpickerTitle.Parent = Colorpicker
+            ColorpickerTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorpickerTitle.BackgroundTransparency = 1.000
+            ColorpickerTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            ColorpickerTitle.Size = UDim2.new(0, 187, 0, 42)
+            ColorpickerTitle.Font = Enum.Font.GothamBlack
+            ColorpickerTitle.Text = Info.Title or "Example Text"
+            ColorpickerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ColorpickerTitle.TextSize = 14
+            ColorpickerTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            BoxColor.Name = "BoxColor"
+            BoxColor.Parent = ColorpickerTitle
+            BoxColor.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+            BoxColor.Position = UDim2.new(1.60427809, 0, 0.214285716, 0)
+            BoxColor.Size = UDim2.new(0, 41, 0, 23)
+
+            BoxColorCorner.CornerRadius = UDim.new(0, 5)
+            BoxColorCorner.Name = "BoxColorCorner"
+            BoxColorCorner.Parent = BoxColor
+
+            ConfirmBtn.Name = "ConfirmBtn"
+            ConfirmBtn.Parent = ColorpickerTitle
+            ConfirmBtn.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            ConfirmBtn.Position = UDim2.new(1.25814295, 0, 1.09037197, 0)
+            ConfirmBtn.Size = UDim2.new(0, 105, 0, 32)
+            ConfirmBtn.AutoButtonColor = false
+            ConfirmBtn.Font = Enum.Font.SourceSans
+            ConfirmBtn.Text = ""
+            ConfirmBtn.BackgroundTransparency = 0.5
+            ConfirmBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+            ConfirmBtn.TextSize = 14.000
+
+            ConfirmBtnCorner.CornerRadius = UDim.new(0, 5)
+            ConfirmBtnCorner.Name = "ConfirmBtnCorner"
+            ConfirmBtnCorner.Parent = ConfirmBtn
+
+            ConfirmBtnTitle.Name = "ConfirmBtnTitle"
+            ConfirmBtnTitle.Parent = ConfirmBtn
+            ConfirmBtnTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ConfirmBtnTitle.BackgroundTransparency = 1.000
+            ConfirmBtnTitle.Size = UDim2.new(0, 33, 0, 32)
+            ConfirmBtnTitle.Font = Enum.Font.GothamBlack
+            ConfirmBtnTitle.Text = "Confirm"
+            ConfirmBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ConfirmBtnTitle.TextSize = 14.000
+            ConfirmBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            ColorpickerBtn.Name = "ColorpickerBtn"
+            ColorpickerBtn.Parent = ColorpickerTitle
+            ColorpickerBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorpickerBtn.BackgroundTransparency = 1.000
+            ColorpickerBtn.Size = UDim2.new(0, 363, 0, 42)
+            ColorpickerBtn.Font = Enum.Font.SourceSans
+            ColorpickerBtn.Text = ""
+            ColorpickerBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+            ColorpickerBtn.TextSize = 14.000
+
+            RainbowToggle.Name = "RainbowToggle"
+            RainbowToggle.Parent = ColorpickerTitle
+            RainbowToggle.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            RainbowToggle.Position = UDim2.new(1.26349044, 0, 2.12684202, 0)
+            RainbowToggle.Size = UDim2.new(0, 104, 0, 32)
+            RainbowToggle.AutoButtonColor = false
+            RainbowToggle.BackgroundTransparency = 0.5
+            RainbowToggle.Font = Enum.Font.SourceSans
+            RainbowToggle.Text = ""
+            RainbowToggle.TextColor3 = Color3.fromRGB(0, 0, 0)
+            RainbowToggle.TextSize = 14.000
+
+            RainbowToggleCorner.CornerRadius = UDim.new(0, 5)
+            RainbowToggleCorner.Name = "RainbowToggleCorner"
+            RainbowToggleCorner.Parent = RainbowToggle
+
+            RainbowToggleTitle.Name = "RainbowToggleTitle"
+            RainbowToggleTitle.Parent = RainbowToggle
+            RainbowToggleTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowToggleTitle.BackgroundTransparency = 1.000
+            RainbowToggleTitle.Size = UDim2.new(0, 33, 0, 32)
+            RainbowToggleTitle.Font = Enum.Font.GothamBlack
+            RainbowToggleTitle.Text = "Rainbow"
+            RainbowToggleTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowToggleTitle.TextSize = 14.000
+            RainbowToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            FrameRainbowToggle1.Name = "FrameRainbowToggle1"
+            FrameRainbowToggle1.Parent = RainbowToggle
+            FrameRainbowToggle1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+            FrameRainbowToggle1.BackgroundTransparency = 0.5
+            FrameRainbowToggle1.Position = UDim2.new(0.649999976, 0, 0.186000004, 0)
+            FrameRainbowToggle1.Size = UDim2.new(0, 37, 0, 18)
+
+            FrameRainbowToggle1Corner.Name = "FrameRainbowToggle1Corner"
+            FrameRainbowToggle1Corner.Parent = FrameRainbowToggle1
+
+            FrameRainbowToggle2.Name = "FrameRainbowToggle2"
+            FrameRainbowToggle2.Parent = FrameRainbowToggle1
+            FrameRainbowToggle2.BackgroundColor3 = Color3.fromRGB(30,30,30)
+            FrameRainbowToggle2.BackgroundTransparency = 0.5
+            FrameRainbowToggle2.Position = UDim2.new(0.0590000004, 0, 0.112999998, 0)
+            FrameRainbowToggle2.Size = UDim2.new(0, 33, 0, 14)
+
+            FrameRainbowToggle2_2.Name = "FrameRainbowToggle2"
+            FrameRainbowToggle2_2.Parent = FrameRainbowToggle2
+
+            FrameRainbowToggle3.Name = "FrameRainbowToggle3"
+            FrameRainbowToggle3.Parent = FrameRainbowToggle1
+            FrameRainbowToggle3.BackgroundColor3 = Color3.fromRGB(30,30,30)
+            FrameRainbowToggle3.BackgroundTransparency = 1.000
+            FrameRainbowToggle3.Size = UDim2.new(0, 37, 0, 18)
+
+            FrameToggle3.Name = "FrameToggle3"
+            FrameToggle3.Parent = FrameRainbowToggle3
+
+            FrameRainbowToggleCircle.Name = "FrameRainbowToggleCircle"
+            FrameRainbowToggleCircle.Parent = FrameRainbowToggle1
+            FrameRainbowToggleCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+            FrameRainbowToggleCircle.Position = UDim2.new(0.127000004, 0, 0.222000003, 0)
+            FrameRainbowToggleCircle.Size = UDim2.new(0, 10, 0, 10)
+
+            FrameRainbowToggleCircleCorner.Name = "FrameRainbowToggleCircleCorner"
+            FrameRainbowToggleCircleCorner.Parent = FrameRainbowToggleCircle
+
+            Color.Name = "Color"
+            Color.Parent = ColorpickerTitle
+            Color.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+            Color.Position = UDim2.new(0, 0, 0, 42)
+            Color.Size = UDim2.new(0, 194, 0, 80)
+            Color.ZIndex = 10
+            Color.Image = "rbxassetid://4155801252"
+
+            ColorCorner.CornerRadius = UDim.new(0, 3)
+            ColorCorner.Name = "ColorCorner"
+            ColorCorner.Parent = Color
+
+            ColorSelection.Name = "ColorSelection"
+            ColorSelection.Parent = Color
+            ColorSelection.AnchorPoint = Vector2.new(0.5, 0.5)
+            ColorSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorSelection.BackgroundTransparency = 1.000
+            ColorSelection.Position = UDim2.new(ThemeColor and select(3, Color3.toHSV(ThemeColor)))
+            ColorSelection.Size = UDim2.new(0, 18, 0, 18)
+            ColorSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+            ColorSelection.ScaleType = Enum.ScaleType.Fit
+            ColorSelection.Visible = false
+
+            Hue.Name = "Hue"
+            Hue.Parent = ColorpickerTitle
+            Hue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Hue.Position = UDim2.new(0, 202, 0, 42)
+            Hue.Size = UDim2.new(0, 25, 0, 80)
+
+            HueCorner.CornerRadius = UDim.new(0, 3)
+            HueCorner.Name = "HueCorner"
+            HueCorner.Parent = Hue
+
+            HueGradient.Color =
+                ColorSequence.new {
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)),
+                ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)),
+                ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)),
+                ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)),
+                ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)),
+                ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))
+            }
+            HueGradient.Rotation = 270
+            HueGradient.Name = "HueGradient"
+            HueGradient.Parent = Hue
+
+            HueSelection.Name = "HueSelection"
+            HueSelection.Parent = Hue
+            HueSelection.AnchorPoint = Vector2.new(0.5, 0.5)
+            HueSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            HueSelection.BackgroundTransparency = 1.000
+            HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(ThemeColor)))
+            HueSelection.Size = UDim2.new(0, 18, 0, 18)
+            HueSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+            HueSelection.Visible = false
+
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    FrameRainbowToggle3.BackgroundColor3 = ThemeColor
+                    Colorpicker.BackgroundColor3 = ThemeColor
+                    ConfirmBtn.BackgroundColor3 = ThemeColor
+                    RainbowToggle.BackgroundColor3 = ThemeColor
+					task.wait()
+                end
+            end)
+            
+            local ColorPicker = {
+                Value = Info.Default;
+                Transparency = Info.Transparency or 0;
+                Type = 'ColorPicker';
+                Title = type(Info.Title) == 'string' and Info.Title or 'Color picker',
+                Callback = Info.Callback or function(Color) end;
+            };
+
+            function ColorPicker:Display()
+                ColorPicker.Value = Color3.fromHSV(ColorH, ColorS, ColorV);
+
+                --ColorSelection.Position = UDim2.new(ColorPicker.Sat, 0, 1 - ColorPicker.Vib, 0);
+                --HueSelection.Position = UDim2.new(0, 0, ColorPicker.Hue, 0);
+
+                BoxColor.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+                Color.BackgroundColor3 = Color3.fromHSV(ColorH, 1, 1)
+        
+                Library:SafeCallback(ColorPicker.Callback, ColorPicker.Value);
+                Library:SafeCallback(ColorPicker.Changed, ColorPicker.Value);
+            end;
+
+            Library.Connections[#Library.Connections + 1] = ColorpickerBtn.MouseButton1Click:Connect(function()
+                if ColorPickerToggled == false then
+                    ColorSelection.Visible = true
+                    HueSelection.Visible = true
+                    Colorpicker.Size = UDim2.new(0, 363, 0, 132)
+                    task.wait(.2)
+                    Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                else
+                    ColorSelection.Visible = false
+                    HueSelection.Visible = false
+                    Colorpicker.Size = UDim2.new(0, 363, 0, 42)
+                    task.wait(.2)
+                    Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                end
+                ColorPickerToggled = not ColorPickerToggled
+            end)
+
+            local function UpdateColorPicker(nope)
+                BoxColor.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+                Color.BackgroundColor3 = Color3.fromHSV(ColorH, 1, 1)
+
+                Library:SafeCallback(ColorPicker.Callback, BoxColor.BackgroundColor3)
+                Library:SafeCallback(ColorPicker.Changed, BoxColor.BackgroundColor3)
+            end
+
+            ColorH = 1 - (math.clamp(HueSelection.AbsolutePosition.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) / Hue.AbsoluteSize.Y)
+            ColorS = (math.clamp(ColorSelection.AbsolutePosition.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) / Color.AbsoluteSize.X)
+            ColorV = 1 - (math.clamp(ColorSelection.AbsolutePosition.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) / Color.AbsoluteSize.Y)
+
+            ColorPicker.Value = Info.Default
+            BoxColor.BackgroundColor3 = Info.Default
+            Color.BackgroundColor3 = Info.Default
+            Library:SafeCallback(ColorPicker.Callback, ColorPicker.Value);
+            Library:SafeCallback(ColorPicker.Changed, ColorPicker.Value);
+
+            Library.Connections[#Library.Connections + 1] = Color.InputBegan:Connect(function(input)
+                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                    if RainbowColorPicker then
+                        return
+                    end
+
+                    if ColorInput then
+                        ColorInput:Disconnect()
+                    end
+
+                    ColorInput = RunService.RenderStepped:Connect(function()
+                        local ColorX = (math.clamp(Mouse.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) / Color.AbsoluteSize.X)
+                        local ColorY = (math.clamp(Mouse.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) / Color.AbsoluteSize.Y)
+
+                        ColorSelection.Position = UDim2.new(ColorX, 0, ColorY, 0)
+                        ColorS = ColorX
+                        ColorV = 1 - ColorY
+
+                        ColorPicker:Display()
+                    end)
+                    Library:AttemptSave()
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = Color.InputEnded:Connect(function(input)
+                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                    if ColorInput then
+                        ColorInput:Disconnect()
+                    end
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = Hue.InputBegan:Connect(function(input)
+                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                    if RainbowColorPicker then
+                        return
+                    end
+
+                    if HueInput then
+                        HueInput:Disconnect()
+                    end
+
+                    HueInput = RunService.RenderStepped:Connect(function()
+                        local HueY = (math.clamp(Mouse.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) / Hue.AbsoluteSize.Y)
+
+                        HueSelection.Position = UDim2.new(0.48, 0, HueY, 0)
+                        ColorH = 1 - HueY
+
+                        ColorPicker:Display()
+                    end)
+                    Library:AttemptSave()
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = Hue.InputEnded:Connect(function(input)
+                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                    if HueInput then
+                        HueInput:Disconnect()
+                    end
+                end
+            end)
+
+            RainbowToggle.MouseButton1Down:Connect(function()
+                RainbowColorPicker = not RainbowColorPicker
+
+                if ColorInput then
+                    ColorInput:Disconnect()
+                end
+
+                if HueInput then
+                    HueInput:Disconnect()
+                end
+
+                if RainbowColorPicker then
+                    --FrameRainbowToggle1.BackgroundTransparency = 1
+                    --FrameRainbowToggle2.BackgroundTransparency = 1
+                    --FrameRainbowToggle3.BackgroundTransparency = 0
+                    FrameRainbowToggleCircle.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+                    FrameRainbowToggleCircle.Position = UDim2.new(0.587, 0, 0.222000003, 0)
+                    OldToggleColor = BoxColor.BackgroundColor3
+                    OldColor = Color.BackgroundColor3
+                    OldColorSelectionPosition = ColorSelection.Position
+                    OldHueSelectionPosition = HueSelection.Position
+
+                    while RainbowColorPicker do
+                        BoxColor.BackgroundColor3 = Color3.fromHSV(Library.RainbowColorValue, 1, 1)
+                        Color.BackgroundColor3 = Color3.fromHSV(Library.RainbowColorValue, 1, 1)
+
+                        ColorSelection.Position = UDim2.new(1, 0, 0, 0)
+                        HueSelection.Position = UDim2.new(0.48, 0, 0, Library.HueSelectionPosition)
+
+                        Library:SafeCallback(ColorPicker.Callback, BoxColor.BackgroundColor3)
+                        Library:SafeCallback(ColorPicker.Changed, BoxColor.BackgroundColor3)
+                        task.wait()
+                    end
+                elseif not RainbowColorPicker then
+                    --FrameRainbowToggle1.BackgroundTransparency = 0
+                    --FrameRainbowToggle2.BackgroundTransparency = 0
+                    --FrameRainbowToggle3.BackgroundTransparency = 1
+                    FrameRainbowToggleCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+                    FrameRainbowToggleCircle.Position = UDim2.new(0.127000004, 0, 0.222000003, 0)
+
+                    BoxColor.BackgroundColor3 = OldToggleColor
+                    Color.BackgroundColor3 = OldColor
+
+                    ColorSelection.Position = OldColorSelectionPosition
+                    HueSelection.Position = OldHueSelectionPosition
+
+                    Library:SafeCallback(ColorPicker.Callback, BoxColor.BackgroundColor3)
+                    Library:SafeCallback(ColorPicker.Changed, BoxColor.BackgroundColor3)
+                end
+            end)
+
+            Library.Connections[#Library.Connections + 1] = ConfirmBtn.MouseButton1Click:Connect(function()
+                ColorSelection.Visible = false
+                HueSelection.Visible = false
+                Colorpicker.Size = UDim2.new(0, 363, 0, 42)
+                task.wait(0.2)
+                Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            end)
+
+            function ColorPicker:OnChanged(Func)
+                ColorPicker.Changed = Func;
+                Func(ColorPicker.Value)
+            end;
+
+            function ColorPicker:SetHSVFromRGB(col)
+                local H, S, V = Color3.toHSV(col);
+    
+                ColorPicker.Hue = H;
+                ColorPicker.Sat = S;
+                ColorPicker.Vib = V;
+            end;
+
+            function ColorPicker:SetValueRGB(col, Transparency)
+                ColorPicker.Transparency = Transparency or 0;
+                ColorPicker.Value = col
+                BoxColor.BackgroundColor3 = col
+                Color.BackgroundColor3 = col
+                Library:SafeCallback(ColorPicker.Callback, ColorPicker.Value);
+                Library:SafeCallback(ColorPicker.Changed, ColorPicker.Value);
+            end;
+
+            Options[Idx] = ColorPicker;
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return ColorPicker
+        end
+
+        function Container:Label(text)
+            local Label = Instance.new("TextButton")
+            local DropdownCorner = Instance.new("UICorner")
+            local LabelTitle = Instance.new("TextLabel")
+
+            Label.Name = "Button"
+            Label.Parent = Tab
+            Label.Size = UDim2.new(0, 363, 0, 42)
+            Label.AutoButtonColor = false
+            Label.Font = Enum.Font.SourceSans
+            Label.BackgroundTransparency = 0.5
+            Label.Text = ""
+            Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Label.TextSize = 14.000
+
+            DropdownCorner.CornerRadius = UDim.new(0, 5)
+            DropdownCorner.Name = "ButtonCorner"
+            DropdownCorner.Parent = Label
+
+            LabelTitle.Name = "ButtonTitle"
+            LabelTitle.Parent = Label
+            LabelTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            LabelTitle.BackgroundTransparency = 1.000
+            LabelTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            LabelTitle.Size = UDim2.new(0, 187, 0, 42)
+            LabelTitle.Font = Enum.Font.GothamBlack
+            LabelTitle.Text = text
+            LabelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            LabelTitle.TextSize = 14
+            LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    Label.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+
+            local Label = {}
+
+            function Label:SetText(Text)
+                LabelTitle.Text = Text
+            end
+            
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Label
+        end
+
+        function Container:MakeTextbox(Idx, Info)
+
+            assert(Info.Text, 'AddInput: Missing `Text` string.')
+
+            local Textbox = {
+                Value = Info.Default or '';
+                Default = Info.Default;
+                Type = 'Input';
+                Callback = Info.Callback or function(Value) end;
+            };
+
+            local MainTextbox = Instance.new("Frame")
+            local TextboxCorner = Instance.new("UICorner")
+            local TextboxTitle = Instance.new("TextLabel")
+            local TextboxFrame = Instance.new("Frame")
+            local TextboxFrameCorner = Instance.new("UICorner")
+            local TextBox = Instance.new("TextBox")
+
+            MainTextbox.Name = "MainTextbox"
+            MainTextbox.Parent = Tab
+            MainTextbox.BackgroundTransparency = 0.5
+            MainTextbox.ClipsDescendants = true
+            MainTextbox.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
+            MainTextbox.Size = UDim2.new(0, 363, 0, 42)
+
+            TextboxCorner.CornerRadius = UDim.new(0, 5)
+            TextboxCorner.Name = "TextboxCorner"
+            TextboxCorner.Parent = MainTextbox
+
+            TextboxTitle.Name = "TextboxTitle"
+            TextboxTitle.Parent = MainTextbox
+            TextboxTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextboxTitle.BackgroundTransparency = 1.000
+            TextboxTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            TextboxTitle.Size = UDim2.new(0, 187, 0, 42)
+            TextboxTitle.Font = Enum.Font.GothamBlack
+            TextboxTitle.Text = Info.Text or "Text Example"
+            TextboxTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextboxTitle.TextSize = 14
+            TextboxTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            TextboxFrame.Name = "TextboxFrame"
+            TextboxFrame.Parent = TextboxTitle
+            TextboxFrame.BackgroundTransparency = 1
+            TextboxFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+            TextboxFrame.Position = UDim2.new(1.28877008, 0, 0.214285716, 0)
+            TextboxFrame.Size = UDim2.new(0, 100, 0, 23)
+
+            TextboxFrameCorner.CornerRadius = UDim.new(0, 5)
+            TextboxFrameCorner.Name = "TextboxFrameCorner"
+            TextboxFrameCorner.Parent = TextboxFrame
+
+            TextBox.Parent = TextboxFrame
+            TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextBox.BackgroundTransparency = 1
+            TextBox.Size = UDim2.new(0, 100, 0, 23)
+            TextBox.Font = Enum.Font.Gotham
+            TextBox.Text = Info.Default or "Enter Text"
+            TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextBox.TextSize = 14
+
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    MainTextbox.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+
+            function Textbox:RemoveText()
+                TextBox.Text = "Enter Text"
+                Textbox.Value = ""
+
+                Library:SafeCallback(Textbox.Callback, Textbox.Value);
+                Library:SafeCallback(Textbox.Changed, Textbox.Value);
+            end
+
+            function Textbox:SetValue(Text)
+                if Info.MaxLength and #Text > Info.MaxLength then
+                    Text = Text:sub(1, Info.MaxLength);
+                end;
+    
+                if Textbox.Numeric then
+                    if (not tonumber(Text)) and Text:len() > 0 then
+                        Text = Textbox.Value
+                    end
+                end
+    
+                Textbox.Value = Text;
+                TextBox.Text = Text == "" and "Enter Text" or Text;
+    
+                Library:SafeCallback(Textbox.Callback, Textbox.Value);
+                Library:SafeCallback(Textbox.Changed, Textbox.Value);
+            end;
+
+            if Textbox.Finished then
+                TextBox.FocusLost:Connect(function(enter)
+                    if not enter then return end
+    
+                    Textbox:SetValue(TextBox.Text);
+                    Library:AttemptSave();
+                end)
+            else
+                TextBox:GetPropertyChangedSignal('Text'):Connect(function()
+                    Textbox:SetValue(TextBox.Text);
+                    Textbox.LastText = TextBox.Text
+                    Library:AttemptSave();
+                end);
+            end
+
+            function Textbox:OnChanged(Func)
+                Textbox.Changed = Func;
+                Func(Textbox.Value);
+            end;
+
+            Options[Idx] = Textbox
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Textbox
+        end
+        
+        function Container:Bind(Idx, Info)
+
+            assert(Info.Text, 'AddInput: Missing `Text` string.')
+
+            local Textbox = {
+                Value = Info.Default or '';
+                Default = Info.Default;
+                Type = 'Input';
+                Callback = Info.Callback or function(Value) end;
+            };
+
+            local binding = false
+            local Key = Info.Default or "None"
+            local Bind = Instance.new("TextButton")
+            local BindCorner = Instance.new("UICorner")
+            local BindTitle = Instance.new("TextLabel")
+            local BindText = Instance.new("TextLabel")
+
+            Bind.Name = "Bind"
+            Bind.Parent = Tab
+            Bind.Size = UDim2.new(0, 363, 0, 42)
+            Bind.AutoButtonColor = false
+            Bind.Font = Enum.Font.SourceSans
+            Bind.BackgroundTransparency = 0.5
+            Bind.Text = ""
+            Bind.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Bind.TextSize = 14.000
+
+            BindCorner.CornerRadius = UDim.new(0, 5)
+            BindCorner.Name = "BindCorner"
+            BindCorner.Parent = Bind
+
+            BindTitle.Name = "BindTitle"
+            BindTitle.Parent = Bind
+            BindTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            BindTitle.BackgroundTransparency = 1.000
+            BindTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            BindTitle.Size = UDim2.new(0, 187, 0, 42)
+            BindTitle.Font = Enum.Font.GothamBlack
+            BindTitle.Text = Info.Text or "Default Bind"
+            BindTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            BindTitle.TextSize = 14
+            BindTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            BindText.Name = "BindText"
+            BindText.Parent = Bind
+            BindText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            BindText.BackgroundTransparency = 1.000
+            BindText.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            BindText.Size = UDim2.new(0, 337, 0, 42)
+            BindText.Font = Enum.Font.Gotham
+            BindText.Text = Info.Default or "Enter Key"
+            BindText.TextColor3 = Color3.fromRGB(255, 255, 255)
+            BindText.TextSize = 14
+            BindText.TextXAlignment = Enum.TextXAlignment.Right
+            
+            task.spawn(function()
+                while ScreenGui.Parent do
+                    Bind.BackgroundColor3 = ThemeColor
+                    task.wait()
+                end
+            end)
+
+            function Textbox:RemoveText()
+                BindText.Text = "Enter Key"
+                Textbox.Value = ""
+
+                Library:SafeCallback(Textbox.Callback, Textbox.Value);
+                Library:SafeCallback(Textbox.Changed, Textbox.Value);
+            end
+
+            Library.Connections[#Library.Connections + 1] = Bind.MouseButton1Click:Connect(function()
+                BindText.Text = "..."
+                binding = true
+                local inputwait = InputService.InputBegan:wait()
+                if inputwait.KeyCode.Name ~= "Unknown" then
+                    BindText.Text = inputwait.KeyCode.Name
+                    Key = inputwait.KeyCode.Name
+                    binding = false
+                else
+                    binding = false
+                end
+                Library:AttemptSave()
+            end)
+            
+            Library.Connections[#Library.Connections + 1] = InputService.InputBegan:connect(function(current, pressed)
+                if not pressed then
+                    if current.KeyCode.Name == Key and binding == false and not table.find(blacklistedKeybinds, current.KeyCode) then
+                        Textbox.Value = Key
+                        Library:SafeCallback(Textbox.Callback, Textbox.Value)
+                        Library:SafeCallback(Textbox.Changed, Textbox.Value)
+                    end
+                end
+                Library:AttemptSave()
+            end)
+
+            function Textbox:OnChanged(Func)
+                Textbox.Changed = Func;
+                Func(Textbox.Value);
+            end;
+    
+            function Textbox:SetValue(Text)
+                Textbox.Value = tostring(Text);
+    
+                BindText.Text = Text == "" and "Enter Key" or Text;
+    
+                Library:SafeCallback(Textbox.Callback, Textbox.Value);
+                Library:SafeCallback(Textbox.Changed, Textbox.Value);
+            end;
+
+            Options[Idx] = Textbox
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+            return Textbox
+        end
+        return Container
+    end
+    return Content
+end
+return Library
